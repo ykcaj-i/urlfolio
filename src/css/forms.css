@@ -1,0 +1,27 @@
+
+
+#url{
+   border: none;
+   background-color: rgb(238, 238, 238);
+}
+
+#urlLabel{
+    color: rgb(9, 60, 80);
+    font-weight: 400;
+
+}
+
+.submit{
+    border: none;
+    border-radius: 25%;
+    color: rgb(9, 60, 80);
+    background-color: #eeeeee;
+    
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(9, 60, 80);
+    color: white;
+    transition: all 0.5s ease;
+}
