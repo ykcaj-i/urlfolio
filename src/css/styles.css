@@ -7,19 +7,32 @@
 
 body{
   font-family: Reddit Mono;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(23, 23, 24);
+  color: rgb(118, 126, 129);
 }
 
-#title{
-    font-family: Playfair Display;
-    color: rgb(9, 60, 80);
-    font-weight: 700;
-}
-
-#title:hover{
-  cursor: pointer;
-}
 
 #dashboard{
   border: solid 1px rgb(9, 60, 80);
+}
+
+.parentContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.genericContainer1{
+  border: solid 1px rgb(118, 126, 129);
+  border-radius: 1%;
+  margin: 1rem;
+  padding: 1rem; 
+}
+
+
+.genericContainer2{
+  border: solid 1px rgb(118, 126, 129);
+  border-radius: 1%;
+  margin: 1rem;
+  padding: 1rem; 
 }

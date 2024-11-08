@@ -5,19 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>zel</title>
     <link rel="stylesheet" href="./css/styles.css"><link rel="stylesheet" href="./css/forms.css">
+    <link rel="stylesheet" href="./css/title.css">
     <script src="script.js"></script>
 </head>
 
 <body>
 
-    <h1 id ="title"><span id = "titleBackground">+linkpkgr+</span></h1>
+    <h1 id ="title">
+        <span id = "titleSpan">
+        <font>✦</font>
+        <font >url</font>
+        <font >packer</font>
+        </span>
+        <font style = "font-family: reddit mono; font-size: small"> &nbsp;v0.1</font>
+    </h1><br><br>
+<div class="parentContainer">
 
+
+    <div class = "genericContainer1">
     <form id="urlForm"> 
-        <label for="url" id = "urlLabel">url</label> 
-        <input type="url" id="url" name="url"> 
-        <button type="submit" class = "submit">+</button> 
-    </form>
+        
+        <input type="url" id="url" name="url" placeholder="....."> 
+        <button type="submit" class = "submit" value = "addUrl">+</button>
+        <label for="url" id = "urlLabel">link</label><br>
 
+        <input type="category" id="category" name="category" placeholder=".....">
+        <button type="submit" class = "submit" value = "addCategory">+</button>
+        <label for="category" id = "categoryLabel">category</label> <br> 
+    </form>
+    </div>
+
+    <div class = "genericContainer1">
+        <h3># favorites</h3>
+        <h3># research</h3>
+        <h3># food</h3>
+    </div>
+
+</div>
+
+    
     <main>
         
     </main>

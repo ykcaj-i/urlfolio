@@ -1,0 +1,19 @@
+#title{
+    font-family: Playfair Display;
+    color: rgb(118, 126, 129);
+    font-weight: 700;
+}
+
+
+#titleSpan{
+    color: rgb(153, 160, 168);
+    cursor: pointer;
+  }
+  
+
+ #titleSpan:hover{
+    color: rgb(124, 100, 47);
+    transition: color 1s;
+ }
+ 
+

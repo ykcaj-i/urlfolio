@@ -2,11 +2,12 @@
 
 #url{
    border: none;
-   background-color: rgb(238, 238, 238);
+   background-color: transparent;
+   
 }
 
 #urlLabel{
-    color: rgb(9, 60, 80);
+    color: rgb(142, 148, 151);
     font-weight: 400;
 
 }
@@ -14,9 +15,8 @@
 .submit{
     border: none;
     border-radius: 25%;
-    color: rgb(9, 60, 80);
-    background-color: #eeeeee;
-    
+    color: rgb(142, 148, 151);
+    background-color: #0f0f0f;
 }
 
 .submit:hover{
@@ -24,4 +24,22 @@
     background-color: rgb(9, 60, 80);
     color: white;
     transition: all 0.5s ease;
+}
+
+
+#category{
+    border: none;
+    background-color: transparent;
+ }
+ 
+ #categoryLabel{
+     color: rgb(142, 148, 151);
+     font-weight: 400;
+ 
+ }
+ 
+
+ input, select, textarea{
+    color: rgb(155, 165, 175);
+    font-family: reddit mono;
 }
