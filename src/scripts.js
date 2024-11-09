@@ -2,7 +2,7 @@
 
 
 
-
+/*
 class urlMaster {
     constructor(url, date, category) {
         this.url = url;
@@ -10,11 +10,13 @@ class urlMaster {
         this.category = category;
     }
 }
-
+*/
 
 function getCategory(){
-    
+    let myCategory = document.getElementById('myForm').value;
+    alert(myCategory);
 }
+
 
 
 function getURL(){

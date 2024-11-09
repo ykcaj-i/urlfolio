@@ -6,8 +6,8 @@
     <title>zel</title>
     <link rel="stylesheet" href="./css/styles.css"><link rel="stylesheet" href="./css/forms.css">
     <link rel="stylesheet" href="./css/title.css">
-    <script src="script.js"></script>
-    <script src="styles.js"></script>
+    <script src="scripts.js"></script>
+  
 </head>
 
 <body>
@@ -18,7 +18,7 @@
         <font class = "zel">zel</font> 
         </span>
         
-        <font style = "font-family: reddit mono; font-size: small"> &nbsp;v0.1</font>
+        &nbsp;<font style = "font-family: reddit mono; font-size: small"> v0.1</font>
 
       
     </h1><span id = "navbuttons">
@@ -33,20 +33,23 @@
 
 
     <div class = "genericContainer1">
-    <form id="urlForm"> 
-        
-        <input type="url" id="url" name="url" placeholder="....."> 
+    <form id="myFormUrl"> 
+        <input type="url" id="url" name="url" placeholder="enter url"> 
         <button type="submit" class = "submit" value = "addUrl">+</button>
-        <label for="url" id = "urlLabel">link</label><br>
-
-        <input type="category" id="category" name="category" placeholder=".....">
-        <button type="submit" class = "submit" value = "addCategory">+</button>
-        <label for="category" id = "categoryLabel">category</label> <br> 
+        <label for="url" id = "urlLabel">link</label><br><br>
     </form>
+   
+    <hr style = "border: solid 1px rgba(117, 117, 117, 0.623);">
+    <form id="myFormCategory"><br>
+        <input type="category" id="category" name="category" placeholder="enter category">
+        <button type="submit" class = "submit" value = "addCategory">+</button>
+        <label for="category" id = "categoryLabel">category</label><br>
+    </form>
+    
     </div>
 
     <div class = "genericContainer1">
-        <h3># favorites</h3>
+        <h3>favorites</h3>
         <h3 id = "urlList"></h3>
     </div>
 
