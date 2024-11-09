@@ -12,6 +12,15 @@ class urlMaster {
 }
 
 
+function getCategory(){
+    
+}
+
+
+function getURL(){
+
+}
+
 
 function validateURL(){ 
     //validate the user's URL
@@ -25,7 +34,7 @@ function storeURL(){
     //store URL in a database
 }
 
-function alphabeticizeURL(){
 
+function addToList(){//document.getElementById('urlList').text = link;
+    
 }
-
