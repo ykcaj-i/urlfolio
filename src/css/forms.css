@@ -1,10 +1,12 @@
-
+/*rgb(15, 15, 15)*/
 
 #url{
    border: none;
-   background-color: transparent;
+   background-color: rgb(13, 13, 19);
+
    
 }
+
 
 #urlLabel{
     color: rgb(142, 148, 151);
@@ -16,7 +18,7 @@
     border: none;
     border-radius: 25%;
     color: rgb(142, 148, 151);
-    background-color: #0f0f0f;
+    background-color: rgb(12, 12, 17);
 }
 
 .submit:hover{
@@ -29,7 +31,8 @@
 
 #category{
     border: none;
-    background-color: transparent;
+    background-color: rgb(13, 13, 19);
+   
  }
  
  #categoryLabel{

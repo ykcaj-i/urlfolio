@@ -7,7 +7,7 @@
 
 body{
   font-family: Reddit Mono;
-  background-color: rgb(23, 23, 24);
+  background-color: rgb(16, 17, 24);
   color: rgb(118, 126, 129);
 }
 
@@ -27,6 +27,7 @@ body{
   border-radius: 1%;
   margin: 1rem;
   padding: 1rem; 
+  box-shadow: 1px 1px 5px 1px rgb(44, 44, 43);
 }
 
 
@@ -35,4 +36,11 @@ body{
   border-radius: 1%;
   margin: 1rem;
   padding: 1rem; 
+ 
 }
+
+/*
+.genericContainer1:hover{
+  border: dashed 1px rgb(118, 126, 129);
+}
+*/

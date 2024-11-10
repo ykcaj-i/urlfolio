@@ -40,3 +40,16 @@ function storeURL(){
 function addToList(){//document.getElementById('urlList').text = link;
     
 }
+
+
+function openFunction(){
+    let winGoogle = window.open('http://google.com', '_blank', 'noopener,noreferrer');
+
+}
+
+function closeFunction(){
+    winGoogle.close(); 
+}
+
+
+

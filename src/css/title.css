@@ -2,10 +2,13 @@
     font-family: Playfair Display;
     color: rgb(118, 126, 129);
     font-weight: 700;
+    text-align: left;
+    padding-left: 0.25em;
 }
 
 #titlespan{
     color: rgb(153, 160, 168);
+   
 }
 
 #star{
