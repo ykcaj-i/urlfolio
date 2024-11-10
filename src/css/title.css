@@ -8,12 +8,13 @@
 
 #titlespan{
     color: rgb(153, 160, 168);
-   
+
 }
 
 #star{
     display: inline-block;
-    transition: transform 1s ease;
+    
+    transition: transform 1.5s ease;
 }
 
 
@@ -21,13 +22,19 @@
  
 
  #titleSpan:hover{
-    color: rgb(124, 106, 47);
+   color: rgb(63, 228, 173);
+ 
+  
     transition: color 1.5s;
     cursor: pointer;
+
  }
 
 
 #titleSpan:hover > #star{
     transform: rotate(90deg);
+    background: conic-gradient(  #7dfa34, #ddd269, #21d4f3, #f54e4e);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
     
