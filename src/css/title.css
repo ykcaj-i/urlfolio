@@ -22,7 +22,7 @@
  
 
  #titleSpan:hover{
-   color: rgb(63, 228, 173);
+   color: rgb(60, 143, 158);
  
   
     transition: color 1.5s;
@@ -33,7 +33,7 @@
 
 #titleSpan:hover > #star{
     transform: rotate(90deg);
-    background: conic-gradient(  #7dfa34, #ddd269, #21d4f3, #f54e4e);
+    background: conic-gradient(  #7dfa34, #ddd269, #21d4f3, #c64ef5);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
