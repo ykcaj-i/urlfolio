@@ -53,3 +53,14 @@ function closeFunction(){
 
 
 
+
+
+
+function generatePackage(){
+
+}
+
+
+function checkPackage(){
+    let packageIdentification = "zel-pkgr-id/000001-0000000001"
+}
