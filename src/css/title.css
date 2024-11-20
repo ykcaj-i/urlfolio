@@ -35,7 +35,7 @@
 
 
 #titleSpan:hover > #star{
-    transform: rotate(90deg);
+    transform: rotate(150deg);
     background: conic-gradient(  #7dfa34, #ddd269, #21d4f3, #c64ef5);
     -webkit-text-fill-color: transparent;
     background-clip: text;

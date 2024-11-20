@@ -1,38 +1,41 @@
 
-
-
+let anUrl = document.getElementById("urlList");
+anUrl.innerHTML += "your url ";
 
 /*
-class urlMaster {
-    constructor(url, date, category) {
+
+class UrlObject {
+    constructor(url) {
         this.url = url;
-        this.date = date;
-        this.category = category;
+       
     }
 }
-*/
+
 
 function getCategory(){
-    let myCategory = document.getElementById('myForm').value;
+    let myCategory = document.getElementById('myFormCategory').value;
     alert(myCategory);
 }
 
 
 
-function getURL(){
-
+function getUrl(){
+    let url = document.getElementById('addUrl').value;
+    alert(url);
+    myUrl = new UrlObject("url");
+    document.getElementById("urlList").innerHTML = "your url " + myUrl.url;
 }
 
 
-function validateURL(){ 
+function validateUrl(){ 
     //validate the user's URL
 }
 
-function getDateOfURL(){ 
+function getDateOfUrl(){ 
     //once user's URL is validated, get the date and time of storage
 }
 
-function storeURL(){
+function storeUrl(){
     //store URL in a database
 }
 
@@ -60,7 +63,5 @@ function generatePackage(){
 
 }
 
+*/
 
-function checkPackage(){
-    let packageIdentification = "zel-pkgr-id/000001-0000000001"
-}

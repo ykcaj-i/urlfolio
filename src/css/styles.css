@@ -51,16 +51,20 @@ body{
 */
 
 .genericContainer1:hover{
-  border: solid 1px rgba(228, 228, 228, 0.726);
+  box-shadow: 1px 1px  rgb(255, 255, 255);
   cursor: pointer;
   transition: all 1s;
 }
 
 .genericContainer1:hover > .hrdividers{
-  border: solid 1px rgba(255, 255, 255, 0.445);
+  border: solid 1px rgba(255, 255, 255, 0.205);
   transition: all 0.5s ease;
 }
 
+#favorites h3:hover{
+  color:rgb(255, 0, 0);
+  background-color: red;
+}
 /*rgba(16, 227, 255, 0.308)*/
 /*rgba(0, 255, 200, 0.253)*/
 /*rgba(16, 255, 255, 0.137)*/
