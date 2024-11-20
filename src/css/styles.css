@@ -7,7 +7,7 @@
 
 body{
   font-family: Reddit Mono;
-  background-color: rgb(20, 21, 24);
+  background-color: rgb(0, 0, 0); /*default dark mode rgb(20, 21, 24)*/
   color: rgb(118, 126, 129);
 }
 
@@ -42,7 +42,7 @@ body{
 
 
 .hrdividers{
-  border: solid 1px rgba(117, 117, 117, 0.623);
+  border: solid 1px rgba(146, 146, 146, 0.623);
 }
 /*
 .genericContainer1:hover{
@@ -51,19 +51,25 @@ body{
 */
 
 .genericContainer1:hover{
-  box-shadow: 1px 1px  rgb(255, 255, 255);
+  box-shadow: 0px 0px 1px 1px rgba(182, 182, 182, 0.87);
   cursor: pointer;
   transition: all 1s;
 }
 
 .genericContainer1:hover > .hrdividers{
-  border: solid 1px rgba(255, 255, 255, 0.205);
+  border: solid 1px rgba(255, 255, 255, 0.39);
   transition: all 0.5s ease;
 }
 
-#favorites h3:hover{
-  color:rgb(255, 0, 0);
-  background-color: red;
+
+#favorites{
+  color:rgba(158, 137, 78, 0.788);
+}
+
+
+.genericContainer1:hover > #favorites{
+  color:rgba(255, 193, 23, 0.788);
+  transition: all 1s ease;
 }
 /*rgba(16, 227, 255, 0.308)*/
 /*rgba(0, 255, 200, 0.253)*/

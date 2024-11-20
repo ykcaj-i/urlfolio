@@ -1,6 +1,8 @@
 
-let anUrl = document.getElementById("urlList");
-anUrl.innerHTML += "your url ";
+let html = document.getElementById("myP").innerHTML;
+document.getElementById("demo").innerHTML = html;
+
+
 
 /*
 
