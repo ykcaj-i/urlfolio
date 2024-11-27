@@ -1,0 +1,96 @@
+ <input type="url" id="url" name="url" placeholder="enter url" required> <!--main form--> 
+<button type="submit" id = "submit1" class = "submit" value = "addUrl">+</button> <!--submit button-->
+<label for="url" id = "urlLabel">link</label><br><br> <!--text label-->
+
+
+
+
+
+
+
+
+
+
+
+/*
+const url1 = document.getElementById('url');
+const submit1 = document.getElementById('submit1');
+const favoritesUrl1 = document.getElementById('favoritesUrl');
+
+function addLink(){
+    favoritesUrl1.innerHTML = url1.value;
+}
+
+submit1.addEventListener('click', addLink)
+*/ 
+/*
+
+function textHere(){
+    
+    document.getElementById("favoritesUrl").innerHTML = "<a class = 'googl' href='https://google.com' target='_blank'>google.com</a><br><a href='https://reddit.com' target='_blank'>reddit.com</a>";
+  
+}
+
+
+
+class UrlObject {
+    constructor(url) {
+        this.url = url;
+       
+    }
+}
+
+
+function getCategory(){
+    let myCategory = document.getElementById('myFormCategory').value;
+    alert(myCategory);
+}
+
+
+
+function getUrl(){
+    let url = document.getElementById('addUrl').value;
+    alert(url);
+    myUrl = new UrlObject("url");
+    document.getElementById("urlList").innerHTML = "your url " + myUrl.url;
+}
+
+
+function validateUrl(){ 
+    //validate the user's URL
+}
+
+function getDateOfUrl(){ 
+    //once user's URL is validated, get the date and time of storage
+}
+
+function storeUrl(){
+    //store URL in a database
+}
+
+
+function addToList(){//document.getElementById('urlList').text = link;
+    
+}
+
+
+function openFunction(){
+    let winGoogle = window.open('http://google.com', '_blank', 'noopener,noreferrer');
+
+}
+
+function closeFunction(){
+    winGoogle.close(); 
+}
+
+
+
+
+
+
+function generatePackage(){
+
+}
+
+
+*/

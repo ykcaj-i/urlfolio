@@ -28,7 +28,7 @@
  
 /*text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;*/
  #titleSpan:hover{
-   color: rgb(60, 158, 153);
+   color: rgb(69, 179, 194);
     transition: color 1.5s;
     cursor: pointer;
  }

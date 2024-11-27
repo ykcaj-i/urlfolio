@@ -7,63 +7,63 @@
     <link rel="stylesheet" href="./css/styles.css"><!--main style sheet-->
     <link rel="stylesheet" href="./css/url_form_submit.css"><!--url forms-->
     <link rel="stylesheet" href="./css/zel_icon.css"><!--zel icon-->
-    <script src="scripts.js"></script>
+    <script defer src="scripts.js" ></script>
   
 </head>
 
 <body>
-
-    <h1 id ="title">
-        <span id = "titleSpan">
-        <font id = "star" >✦</font>
-        <font id = "zel" >zel</font> 
-        </span>
-        
-        &nbsp;<font style = "font-family: reddit mono; font-size: small"> v0.1</font>
-
+    
+    <div class="navbar">
+        <p>&nbsp;</p>
+        <h1 id ="title">
+            <span id = "titleSpan">
+                <font id = "star" >✦</font>
+                <font id = "zel" >zel</font> 
+            </span>
+                <font style = "font-family: reddit mono; font-size: small">&nbsp; v0.1</font>
         <hr style = "border: none;">
-    </h1><span id = "navbuttons">
-        <font>&nbsp;#home&nbsp;</font>
-        <font>&nbsp;#account&nbsp;</font>
-        <font>&nbsp;#info&nbsp;</font
-    </span>
-    <br><br>
-    
+    </h1>
+        <span id = "navbuttons">
+            <font>&nbsp;#home&nbsp;</font>
+            <font>&nbsp;#account&nbsp;</font>
+            <font>&nbsp;#info&nbsp;</font>     
+        </span><br><br>
+    </div>   
 
-<div class="parentContainer">
-
-
-    <div class = "genericContainer1">
-    <form id="myFormUrl"> 
-        <input type="url" id="url" name="url" placeholder="enter url"> 
-        <button type="submit" class = "submit" value = "addUrl">+</button>
-        <label for="url" id = "urlLabel">🧾link</label><br><br>
-    </form>
-   
-    <hr class = "hrdividers">
-    <form id="myFormCategory"><br>
-        <input type="category" id="category" name="category" placeholder="enter category">
-        <button type="submit" class = "submit" value = "addCategory">+</button>
-        <label for="category" id = "categoryLabel">🛍️class </label><br>
-    </form>
-    
-    </div>
-
-    <div class = "genericContainer1">
-        <h3 id = "favorites">⭐favorites</h3> 
-        <p>url:</p>
-        
+    <div class="parentContainer">
+        <div class = "genericContainer1">
+            <h3 id = "dashboard"><span id = "spanHoverUtility">📘dashboard&nbsp;</span></h3>
+        <!--url form-->
+        <!--<form id="myFormUrl"> -->
+            <input type = "url" id="url" placeholder="enter url" required> <!--text box--> 
+            <button id = "submit1" class = "submit">+</button> <!--submit text button-->
+            <label for="url" id = "urlLabel">link</label><br><br> <!--text label-->
+        <!--</form><hr class = "hrdividers">-->
+        <!--url form-->
+        <!--category form-->
         <!--
-        <button onclick = "openFunction()">open google</button>
-        <button onclick = "closeFunction()">close google</button>
+        <form id="myFormCategory"><br>
+        <input type="category" id="category" name="category" placeholder="enter category " required>
+        <button type="submit" id = "submit2" class = "submit" value = "addCategory" id = "submitButton">+</button>
+        <label for="category" id = "categoryLabel">class </label><br>
+        </form>
         -->
-      
+        <!--category form-->
     </div>
+    <div class = "genericContainer1">
+        <h3 id = "favorites">⭐favorites&nbsp;</h3> 
+        <p>url:</p>
+        <p id = "favoritesUrl" class = "googlStyle"></p>
+    </div>
+</div><br><br>
 
-</div>
+
+
 <div>
-      
-        <p>The content of "myP" is:</p>
+    <button id = "buttons" onclick = "textHere()">add</button>
+
+    <button onclick = "showMyLink()">show my link</button>
+        <p>adding to our favorites:</p>
         <p id="demo"></p>
 </div>
     

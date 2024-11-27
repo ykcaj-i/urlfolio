@@ -11,7 +11,6 @@
 #urlLabel{
     color: rgb(142, 148, 151);
     font-weight: 400;
-
 }
 
 .submit{
@@ -47,4 +46,18 @@
  input, select, textarea{
     color: rgb(155, 165, 175);
     font-family: reddit mono;
+}
+
+.submit:hover ~ #urlLabel{
+    border-radius: 5%;
+    background-color: rgba(0, 163, 212, 0.089);
+    transition: 1.25s ease;
+    color: rgba(81, 186, 218, 0.788);
+}
+
+.submit:hover ~ #categoryLabel{
+    border-radius: 5%;
+    background-color: rgba(0, 163, 212, 0.089);
+    transition: 1.25s ease;
+    color: rgba(81, 186, 218, 0.788);
 }

@@ -1,69 +1,34 @@
 
-let html = document.getElementById("myP").innerHTML;
-document.getElementById("demo").innerHTML = html;
+
+let thisUrl;
 
 
 
-/*
 
-class UrlObject {
-    constructor(url) {
-        this.url = url;
+    document.getElementById('submit1').onclick = function(){
+        thisUrl = document.getElementById('url').value;
+        let Stringify = String(thisUrl);
+        let isLink = true; 
+        let Statement; //empty string
+
+        if((Stringify.indexOf('https://') && Stringify.indexOf('.com') != isLink)){
+            Statement = "didn't pass";
+            Stringify = "https://" + Stringify + ".com";
+            document.getElementById('favoritesUrl').textContent = `${Stringify} + ${Statement}`
+        } else {
+            Statement = "pass";
+            document.getElementById('favoritesUrl').textContent = `${Stringify} + ${Statement}`
+        }
+        console.log(thisUrl);
+        console.log(Stringify);
+        
+   
        
     }
-}
-
-
-function getCategory(){
-    let myCategory = document.getElementById('myFormCategory').value;
-    alert(myCategory);
-}
-
-
-
-function getUrl(){
-    let url = document.getElementById('addUrl').value;
-    alert(url);
-    myUrl = new UrlObject("url");
-    document.getElementById("urlList").innerHTML = "your url " + myUrl.url;
-}
-
-
-function validateUrl(){ 
-    //validate the user's URL
-}
-
-function getDateOfUrl(){ 
-    //once user's URL is validated, get the date and time of storage
-}
-
-function storeUrl(){
-    //store URL in a database
-}
-
-
-function addToList(){//document.getElementById('urlList').text = link;
     
-}
-
-
-function openFunction(){
-    let winGoogle = window.open('http://google.com', '_blank', 'noopener,noreferrer');
-
-}
-
-function closeFunction(){
-    winGoogle.close(); 
-}
 
 
 
+//window.onload = function(){ };
 
-
-
-function generatePackage(){
-
-}
-
-*/
-
+//document.getElementById('url')

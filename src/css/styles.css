@@ -7,13 +7,14 @@
 
 body{
   font-family: Reddit Mono;
-  background-color: rgb(0, 0, 0); /*default dark mode rgb(20, 21, 24)*/
+  background-color: rgb(20, 21, 24); /*default dark mode rgb(20, 21, 24)*/
   color: rgb(118, 126, 129);
 }
 
 
 #dashboard{
-  border: solid 1px rgb(9, 60, 80);
+  color: rgb(118, 126, 129);/*rgb(9, 60, 80)*/
+
 }
 
 .parentContainer{
@@ -63,14 +64,56 @@ body{
 
 
 #favorites{
-  color:rgba(158, 137, 78, 0.788);
+  color: rgb(118, 126, 129);/*rgba(95, 83, 51, 0.719)*/
+  background-color: rgba(48, 41, 21, 0.507);
 }
 
 
 .genericContainer1:hover > #favorites{
-  color:rgba(255, 193, 23, 0.788);
-  transition: all 1s ease;
+  color:rgba(168, 143, 96, 0.897);
+  transition: all 1.5s ease;
+  
 }
+
+.genericContainer1:hover > #dashboard{
+  color:rgba(57, 166, 194, 0.788);
+  transition: all 1.5s ease;
+ 
+  border-radius: 5%;
+}
+
+
 /*rgba(16, 227, 255, 0.308)*/
 /*rgba(0, 255, 200, 0.253)*/
 /*rgba(16, 255, 255, 0.137)*/
+
+
+
+.googlStyle a{
+  text-decoration: none;
+ 
+}
+
+.googlStyle a:hover{
+  color: rgb(181, 81, 228);
+  background-color: rgba(73, 55, 173, 0.336);
+  transition: 0.5s ease;
+}
+
+#buttons{
+  color: rgb(148, 148, 148);
+  background-color: transparent;
+  border: none;
+  border-radius: 10%;
+  text-decoration: none;
+}
+
+
+#spanHoverUtility{
+  background-color: rgba(5, 35, 99, 0.548);
+}
+
+
+.genericContainer1:hover ~ #spanHoverUtility{
+  background-color: blue;
+}
