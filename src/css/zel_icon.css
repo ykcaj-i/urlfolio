@@ -20,7 +20,7 @@
 
 
 #zel:hover{
-    text-shadow: 1px 1px 2px rgb(40, 99, 60), 0 0 1em rgba(0, 1, 85, 0.747), 0 0 0.2em rgba(0, 0, 29, 0.788);
+
     transition: transform 1.5s ease;
  
 }

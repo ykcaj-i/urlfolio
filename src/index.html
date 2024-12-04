@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css"><!--main style sheet-->
     <link rel="stylesheet" href="./css/url_form_submit.css"><!--url forms-->
     <link rel="stylesheet" href="./css/zel_icon.css"><!--zel icon-->
+    <link rel="stylesheet" href="./css/scrollbar.css"><!--scrollbar-->
     <script defer src="scripts.js" ></script>
   
 </head>
@@ -14,7 +15,7 @@
 <body>
     
     <div class="navbar">
-        <p>&nbsp;</p>
+        <br>
         <h1 id ="title">
             <span id = "titleSpan">
                 <font id = "star" >✦</font>
@@ -32,39 +33,46 @@
 
     <div class="parentContainer">
         <div class = "genericContainer1">
-            <h3 id = "dashboard"><span id = "spanHoverUtility">📘dashboard&nbsp;</span></h3>
+            <h3 id = "dashboard"><span id = "spanHoverUtility">&nbsp;# save-url &nbsp;</span></h3>
         <!--url form-->
         <!--<form id="myFormUrl"> -->
             <input type = "url" id="url" placeholder="enter url" required> <!--text box--> 
             <button id = "submit1" class = "submit">+</button> <!--submit text button-->
             <label for="url" id = "urlLabel">link</label><br><br> <!--text label-->
-        <!--</form><hr class = "hrdividers">-->
+        </form><hr class = "hrdividers">
         <!--url form-->
         <!--category form-->
-        <!--
+   
         <form id="myFormCategory"><br>
         <input type="category" id="category" name="category" placeholder="enter category " required>
         <button type="submit" id = "submit2" class = "submit" value = "addCategory" id = "submitButton">+</button>
         <label for="category" id = "categoryLabel">class </label><br>
         </form>
-        -->
+     
         <!--category form-->
     </div>
     <div class = "genericContainer1">
-        <h3 id = "favorites">⭐favorites&nbsp;</h3> 
-        <p>url:</p>
+        <h3 id = "favorites">&nbsp;# favorites&nbsp;</h3> 
         <p id = "favoritesUrl" class = "googlStyle"></p>
     </div>
+
+
 </div><br><br>
+<div class="parentContainer1">
+    <div class = "genericContainer1" id = "urlListContainer">
+        <h3 id = "myList">&nbsp;# url-list&nbsp;</h3> 
+        <p id = "mainListUrl" class = "googlStyle"></p>
+    </div>
+    
+
+
+</div>
 
 
 
-<div>
-    <button id = "buttons" onclick = "textHere()">add</button>
 
-    <button onclick = "showMyLink()">show my link</button>
-        <p>adding to our favorites:</p>
-        <p id="demo"></p>
+<div >
+  
 </div>
     
 
