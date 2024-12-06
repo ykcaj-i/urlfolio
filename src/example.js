@@ -33,8 +33,8 @@ function createHREF(Result, linkBeforeModification, Stringify){ //check
     let fullyPaddedLink = `<div class = "wrap">${tagHREF}<br><br></div>`; //now the wrapped <a> href link has a div with a wrap class for styling effect
     console.log(fullyPaddedLink + " = fullyPaddedLink pass");
 
-    document.getElementById('mainListUrl').innerHTML += `<div class = "wrap">"result= "${Result} + "linkBeforeModification= " 
-    + ${linkBeforeModification}<br><br> + "thisLink=" +  ${thisLink}<br><br> + "fullyPaddedLink=" +  ${fullyPaddedLink}<br><br></div>`;
+    document.getElementById('mainListUrl').innerHTML += `<div class = "wrap">result=${Result} linkBeforeModification=<br> 
+    ${linkBeforeModification}<br><br> thisLink=${thisLink}fullyPaddedLink=${fullyPaddedLink}<br><br></div>`;
 
     /*
     let thisLink = Result;
