@@ -12,16 +12,17 @@ document.getElementById('submit1').onclick = function(){
         Stringify = "https://" + Stringify + ".com";
         Result =  `<div class = "wrap">${Stringify}<br><br></div>`;
         linkBeforeModification = Stringify;
-        createHREF(Result, linkBeforeModification);
+        createHREF(Result, linkBeforeModification, Stringify);
     } else {
         console.log("didn't add a link");
         Result =  `<div class = "wrap">${Stringify}<br><br></div>`;
         linkBeforeModification = Stringify;
-        createHREF(Result, linkBeforeModification);
+        createHREF(Result, linkBeforeModification, Stringify);
     }
 }
 
-function createHREF(Result, linkBeforeModification){
+function createHREF(Result, linkBeforeModification, Stringify){ //check
+    console.log(Stringify + " = Stringify pass");
     console.log(Result + " = Result pass");
     console.log(linkBeforeModification + " = linkBeforeModification pass");
     console.log("successful");
@@ -29,21 +30,28 @@ function createHREF(Result, linkBeforeModification){
     thisLink.href = linkBeforeModification;
     thisLink.target = '_blank';
     let tagHREF = `<a href = ${linkBeforeModification}></a>`;
-    document.getElementById('mainListUrl').innerHTML += `<div class = "wrap">"result: "${Result} + "linkBeforeModification: " + ${linkBeforeModification}<br><br> + "thisLink:" +  ${thisLink}<br><br></div>`;
+
+    document.getElementById('mainListUrl').innerHTML += `<div class = "wrap">"result: "${Result} + "linkBeforeModification: " 
+    + ${linkBeforeModification}<br><br> + "thisLink:" +  ${thisLink}<br><br></div>`;
+
     /*
     let thisLink = Result;
     thisLink.href = 'linkBeforeModification';
     thisLink.target = '_blank';
     let linkDestination = document.getElementById('demo');
 
-    function createArray(thisLink){
-        let temp = thisLink;
-        const linkArray = [];
-        linkArray.push(thisLink);
-    }	
+   
         */
 }
 
+
+
+
+function createArray(thisLink){
+    let temp = thisLink;
+    const linkArray = [];
+    linkArray.push(thisLink);
+}	
 
 function pushArray(){
 
