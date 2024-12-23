@@ -25,15 +25,15 @@
         <hr style = "border: none;">
     </h1>
         <span id = "navbuttons">
-            <font>&nbsp;#home&nbsp;</font>
-            <font>&nbsp;#account&nbsp;</font>
-            <font>&nbsp;#info&nbsp;</font>     
+            <font>&nbsp;home&nbsp;</font>
+            <font>&nbsp;account&nbsp;</font>
+            <font>&nbsp;info&nbsp;</font>     
         </span><br><br>
     </div>   
 
     <div class="parentContainer">
         <div class = "genericContainer1">
-            <h3 id = "dashboard"><span id = "spanHoverUtility">&nbsp;# add &nbsp;</span></h3>
+            <h3 id = "dashboard"><span id = "spanHoverUtility">&nbsp;@ home &nbsp;</span></h3>
         <!--url form-->
         <!--<form id="myFormUrl"> -->
             <input type = "url" id="url" placeholder="enter url" required> <!--text box--> 
@@ -52,7 +52,7 @@
         <!--category form-->
     </div>
     <div class = "genericContainer1">
-        <h3 id = "favorites">&nbsp;# favorites&nbsp;</h3> 
+        <h3 id = "favorites">&nbsp;@ favorites&nbsp;</h3> 
         <p id = "favoritesUrl" class = "googlStyle"></p>
     </div>
 
@@ -60,14 +60,17 @@
 </div><br><br>
 <div class="parentContainer1">
     <div class = "genericContainer1" id = "urlListContainer">
-        <h3 id = "myList">&nbsp;# url-list&nbsp;</h3> 
+        <h3 id = "myList">&nbsp;@ url list&nbsp;</h3> 
         <p id = "mainListUrl" class = "googlStyle"></p>
     </div>
-    
-
-
 </div>
-
+<div class="parentContainer1">
+    <div class = "genericContainer1" id = "arrayListContainer">
+        <h3 id = "myList">&nbsp;@ array list&nbsp;</h3> 
+        <p id = "mainListArray" class = "googlStyle"></p>
+        <button type = "button" onclick = "printArray()" id = > print array </button>
+    </div>
+</div>
 
 
 
