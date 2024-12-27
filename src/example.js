@@ -1,3 +1,4 @@
+
 document.getElementById('submit1').onclick = function(){
     thisUrl = document.getElementById('url').value;
     let Stringify = String(thisUrl);
@@ -34,42 +35,31 @@ function createHREF(Result, linkBeforeModification, Stringify){ //check
     let fullyPaddedLink = `<div class = "wrap">${tagHREF}<br><br></div>`; //now the wrapped <a> href link has a div with a wrap class for styling effect
         console.log(fullyPaddedLink + " = fullyPaddedLink pass");
 
-    /*document.getElementById('mainListUrl').innerHTML += `<div class = "wrap">result=${Result} linkBeforeModification=<br> 
-    ${linkBeforeModification}<br><br> thisLink=${thisLink}fullyPaddedLink=${fullyPaddedLink}<br><br></div>`;*/
+
         console.log(`this is the link we pass ${thisLink} and ${arrayLink}`);
     createArray(arrayLink);
     document.getElementById('mainListUrl').innerHTML += `<div class = "wrap">${fullyPaddedLink}</div>`;
     
-    /*
-    let thisLink = Result;
-    thisLink.href = 'linkBeforeModification';
-    thisLink.target = '_blank';
-    let linkDestination = document.getElementById('demo');
-
-   
-        */
 }
 
-
 function createArray(arrayLink){
-    console.log("--function createArray---");
+        console.log("--function createArray---");
     const linkArray = [];
     let link = arrayLink;
     let count = 0;
     linkArray.push(link);
     for(let i = 0; i < linkArray.length; i++){
-        console.log(`${linkArray} is in this array`);
-       
+        console.log(`${linkArray} is in this array`);    
     count++
     }
-    
     printArray(linkArray);
+    createClassBox(linkArray);
 }	
 
 function printArray(linkArray){
     let printThisArray = linkArray;
-    console.log("--function printArray---");
-    console.log(printThisArray);
+        console.log("--function printArray---");
+        console.log(printThisArray);
     document.getElementById('mainListArray').innerHTML += `<div class = "wrap">${linkArray}</div>`;   
 }
 
@@ -79,8 +69,22 @@ function pushArray(){
 }
 
 
+document.getElementById('submit2').onclick = function(){
+    thisCategory = document.getElementById('category').value;
+    let stringCategory = String(thisCategory);
+    let categoryName = stringCategory;
+        console.log(stringCategory);
+    createClassBox(stringCategory, categoryName);
+    
+}
 
 
-
-
-
+function createClassBox(stringCategory, categoryName, linkArray){
+    let category = stringCategory;
+    let thisBox;
+    console.log(`this is ${category}`);
+    console.log(`this is ${categoryName}`);
+    thisBox =  `<div class = "categoryContainer"><h1>${category}<br>${linkArray}</h1></div>`;
+    console.log(thisBox);
+    document.getElementById('categoryListContainer').innerHTML += thisBox;
+}

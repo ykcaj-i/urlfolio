@@ -131,3 +131,20 @@ body{
   color: rgba(20, 110, 126, 0.747);
 }
 
+
+#categoryListContainer{  /*properties of the container*/
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.categoryContainer{ /*properties of just the category box*/
+  border: solid 1px white;
+  padding: 1em;
+  margin: 1em;
+}
+
+
+.genericContainer2{
+
+}
