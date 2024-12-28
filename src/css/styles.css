@@ -140,6 +140,7 @@ body{
 
 .categoryContainer{ /*properties of just the category box*/
   border: solid 1px white;
+  border-radius: 5%;
   padding: 1em;
   margin: 1em;
 }
