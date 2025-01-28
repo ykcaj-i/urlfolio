@@ -17,6 +17,19 @@ body{
 
 }
 
+
+#navbuttons{
+  cursor: pointer;
+}
+
+.lol:hover{
+  color: rgb(67, 66, 129);
+  border-top: solid 1px rgb(85, 134, 175);
+  transition: all ease 1.25s;
+  
+}
+
+
 .parentContainer{
   display: flex;
   flex-wrap: wrap;

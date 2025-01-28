@@ -8,42 +8,54 @@
     <link rel="stylesheet" href="./css/url_form_submit.css"><!--url forms-->
     <link rel="stylesheet" href="./css/zel_icon.css"><!--zel icon-->
     <link rel="stylesheet" href="./css/scrollbar.css"><!--scrollbar-->
-    <script defer src="example.js" ></script>
-  
+    <script defer src="newexample.js" ></script>
 </head>
+
+
 
 <body>
     
     <div class="navbar">
-        
         <h1 id ="title">
             <span id = "titleSpan">
                 <font id = "star" >✦</font>
-                <font id = "zel" >spacecrow</font>
+                <font id = "zel" >hyprlink</font>
             </span>
                 <font style = "font-family: reddit mono; font-size: small">&nbsp; v0.1</font>
         <hr style = "border: none;">
-    </h1>
+        </h1>
+        
         <span id = "navbuttons">
-            <font style = "font-weight: bold;">&nbsp;#home&nbsp;</font>
-            <font style = "font-weight: bold;">&nbsp;#account&nbsp;</font>
-            <font style = "font-weight: bold;">&nbsp;#info&nbsp;</font>     
-        </span><br><br><br><br>
+            <a class = "lol"><font style = "font-weight: bold;">&nbsp;✦ home&nbsp;</font></a>
+            <a class = "lol"><font style = "font-weight: bold;">&nbsp;✦ account&nbsp;</font></a>
+            <a class = "lol"><font style = "font-weight: bold;">&nbsp;✦ info&nbsp;</font></a>  
+        </span>
+       
+
+        <br><br><br><br>
     </div>   
 
     <div class="parentContainer">
         <div class = "genericContainer1">
-            <h3 id = "dashboard"><span id = "spanHoverUtility">&nbsp;@ home &nbsp;</span></h3>
+            <h3 id = "dashboard"><span id = "spanHoverUtility">&nbsp;@ task &nbsp;</span></h3>
             <!--url form-->
-            <input type = "url" id="url" placeholder="enter url" required> <!--text box--> 
-            <button id = "submit1" class = "submit">+</button> <!--submit text button-->
-            <label for="url" id = "urlLabel">link</label><br><br> <!--text label-->  
+            <div>
+                <form>
+                    <input type = "url" id="url" placeholder="enter url" required> <!--text box--> 
+                    <button type="submit" id = "submit1" class = "submit">+</button> <!--submit text button-->
+                    <label for="url" id = "urlLabel">link</label><br><br> <!--text label-->  
+                </form>
+            </div>
             <!--url form-->
             <hr class = "hrdividers"><br>
             <!--category form-->
-            <input type="category" id="category" name="category" placeholder="enter category " required>
-            <button type="submit" id = "submit2" class = "submit" value = "addCategory" id = "submitButton">+</button>
-            <label for="category" id = "categoryLabel">class </label><br>
+            <div>
+                <form>
+                    <input type="category" id="category" name="category" placeholder="enter category " required>
+                    <button type="submit" id = "submit2" class = "submit" value = "addCategory" id = "submitButton">+</button>
+                    <label for="category" id = "categoryLabel">class</label><br>
+                </form>
+            </div>
             <!--category form-->
         </div>
         <div class = "genericContainer1">
@@ -51,6 +63,13 @@
             <p id = "favoritesUrl" class = "googlStyle"></p>
         </div>
     </div><br><br>
+
+<div class="parentContainer1">
+    <div class = "genericContainer2" >
+        <h3 id = "myList">&nbsp;@ category list&nbsp;</h3>    
+        <div id = "categoryListContainer"></div>
+    </div>
+</div>
 
 <div class="parentContainer1">
     <div class = "genericContainer1" id = "urlListContainer">
@@ -67,16 +86,7 @@
     </div>
 </div>
 
-<div class="parentContainer1">
-    <div class = "genericContainer2" >
-        <h3 id = "myList">&nbsp;@ category list&nbsp;</h3> 
-      
-        <div id = "categoryListContainer">
-            
-        </div>
 
-    </div>
-</div>
 
 
 
