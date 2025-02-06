@@ -21,19 +21,19 @@ body{
 #navbuttons{
   
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.37);
-  padding: 0.20em;
-  padding-top: 0.30em;
-  padding-bottom: 0.30em;
+  background-color: rgba(0, 0, 0, 0.247);
+  padding: 0.25em;
+  padding-top: 0.35em;
+  padding-bottom: 0.35em;
 }
 
 #navbuttons a{
-  padding-left: 0.25em;
-  padding-right: 0.25em;
+  padding-left: 0.35em;
+  padding-right: 0.35em;
 }
 
 .lol:hover{
-  color: rgb(81, 153, 182);
+  color: rgb(74, 74, 121);
   transition: all ease 0.5s;
   
 }
