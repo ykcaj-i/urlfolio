@@ -33,7 +33,7 @@
  
 /*text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;*/
  #titleSpan:hover{
-    color: rgb(73, 69, 122);
+    color: rgb(61, 135, 153);
     transition: color 1.25s;
     cursor: pointer;
  }
@@ -41,7 +41,7 @@
 
 #titleSpan:hover > #star{
     transform: rotate(180deg);
-    background: conic-gradient(  #877bb4, #6f5ece, #39629e, #256091); /*#7dfa34, #ddd269, #21d4f3, #c64ef5*/ /*#8b7e9e, #675c79, #483f57, #2a324b*/
+    background: conic-gradient(  #877bb4, #6856ce, #4490bd, #21649b); /*#7dfa34, #ddd269, #21d4f3, #c64ef5*/ /*#8b7e9e, #675c79, #483f57, #2a324b*/
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }

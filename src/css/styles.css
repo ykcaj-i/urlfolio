@@ -18,6 +18,11 @@ body{
 }
 
 
+.navbar{
+  padding-top: 1em;
+  padding-left: 2em;
+}
+
 #navbuttons{
   
   cursor: pointer;
@@ -25,6 +30,7 @@ body{
   padding: 0.25em;
   padding-top: 0.35em;
   padding-bottom: 0.35em;
+
 }
 
 #navbuttons a{
@@ -33,7 +39,7 @@ body{
 }
 
 .lol:hover{
-  color: rgb(74, 74, 121);
+  color: rgb(61, 127, 153);
   transition: all ease 0.5s;
   
 }
@@ -47,11 +53,13 @@ body{
 
 
 .genericContainer1{
-  border: solid 1px rgba(118, 126, 129, 0.74);
-  border-radius: 1%;
+  border: solid 1px rgb(66, 68, 71);
+  border-radius: 2%;
+  /*border: solid 1px rgba(118, 126, 129, 0.74);*/
+  /*border-radius: 1%;*/
   margin: 1rem;
   padding: 1rem; 
-  box-shadow: 1px 1px 5px 1px rgba(34, 34, 34, 0.342);
+  /*box-shadow: 1px 1px 5px 1px rgba(34, 34, 34, 0.342);*/
 }
 
 
