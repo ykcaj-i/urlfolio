@@ -1,7 +1,9 @@
 
 body{
   font-family: Reddit Mono;
-  background-color: rgb(20, 21, 24); /*default dark mode rgb(20, 21, 24)*/
+
+  background: rgb(7, 12, 22); /*default dark mode rgb(20, 21, 24)*/ 
+  /*rgb(7, 12, 22) */
   color: rgb(118, 126, 129);
 }
 
@@ -33,7 +35,7 @@ body{
 }
 
 .lol:hover{
-  color: rgb(61, 127, 153);
+  color: rgb(102, 95, 58);
   transition: all ease 0.5s;
   
 }

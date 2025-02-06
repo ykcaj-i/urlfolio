@@ -27,9 +27,9 @@ document.getElementById('submit1').onclick = function(){ // input form for the U
 
 function htmlWrapper(originalUrl, templateUrl){ //add an href to the url
     let wrappedUrl = `<a href = "${originalUrl}" target = "_blank"><br>"${templateUrl}"<br></a>`;
-    console.log("1. " +  `${wrappedUrl}`);
+    console.log("step 1. " +  `${wrappedUrl}`);
     wrappedUrl = `<div class = "wrap">"${wrappedUrl}"</div>`;
-    console.log("2. " + `${wrappedUrl}`); //url has been wrapped with html properties making it a clickable link
+    console.log("step 2. " + `${wrappedUrl}`); //url has been wrapped with html properties making it a clickable link
 
     //document.getElementById('urlList').innterHTML += `${wrappedUrl}`;
 }

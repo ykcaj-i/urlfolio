@@ -3,12 +3,32 @@
 #title{
     
     font-family: "Caveat"; /*Playfair Display*/
-    color: rgb(118, 126, 129);
+    /*color: rgb(118, 126, 129);*/
     font-weight: 600;
     text-align: left;
     padding-left: 0.25em;
     font-size: 250%;    
+    color: rgb(102, 95, 58);
 }
+
+
+
+/*
+.gradient-text {
+    background-color: rgb(255, 255, 255);
+
+    background-image: linear-gradient( #13aaa3, #18b1f8);
+
+    background-size: 100%;
+    background-repeat: repeat;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+*/
+
 
 #titlespan{
     color: rgb(153, 160, 168);
@@ -31,7 +51,7 @@
  
 /*text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;*/
  #titleSpan:hover{
-    color: rgb(61, 135, 153);
+    color: rgb(236, 236, 236);
     transition: color 1.25s;
     cursor: pointer;
  }
@@ -39,7 +59,7 @@
 
 #titleSpan:hover > #star{
     transform: rotate(180deg);
-    background: conic-gradient(  #877bb4, #6856ce, #3c7ca1, #21649b); /*#7dfa34, #ddd269, #21d4f3, #c64ef5*/ /*#8b7e9e, #675c79, #483f57, #2a324b*/
+    background: conic-gradient(  rgb(230, 230, 230), rgb(230, 230, 230)); /*#7dfa34, #ddd269, #21d4f3, #c64ef5*/ /*#8b7e9e, #675c79, #483f57, #2a324b*/
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
