@@ -46,15 +46,15 @@
 #zel:hover{
 
     transition: transform 1.5s ease;
- 
+    text-shadow: 1px 1px 1px rgb(49, 46, 87);
 }
  
 /*text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;*/
  #titleSpan:hover{
     color: rgb(57, 55, 102);
-    transition: color 1.25s;
+    transition: color 1s;
     cursor: pointer;
-
+    
     /*
     transition: background-color 250ms;
     background: linear-gradient(to right, rgb(57, 55, 102) , rgb(57, 55, 102) 50% , rgb(63, 141, 122));
