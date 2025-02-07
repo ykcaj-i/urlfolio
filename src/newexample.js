@@ -1,6 +1,16 @@
+/*
 addEventListener("click", function(event){ //prevent page from auto refreshing
+    let eventpreventDefault = 0;
     event.preventDefault()
+    eventPreventDefault++
+    if (eventPreventDefault > 0){
+        removeEventListener("click", handler);
+    }
 });
+*/
+
+
+
 
 
 
@@ -26,13 +36,18 @@ document.getElementById('submit1').onclick = function(){ // input form for the U
 }
 
 function htmlWrapper(originalUrl, templateUrl){ //add an href to the url
-    let wrappedUrl = `<a href = "${originalUrl}" target = "_blank"><br>"${templateUrl}"<br></a>`;
+    let wrappedUrl = `<a href = "${originalUrl}" target = "_blank"><br>${templateUrl}<br></a>`;
     console.log("step 1. " +  `${wrappedUrl}`);
-    wrappedUrl = `<div class = "wrap">"${wrappedUrl}"</div>`;
+    wrappedUrl = `<div class = "wrap">${wrappedUrl}</div>`;
     console.log("step 2. " + `${wrappedUrl}`); //url has been wrapped with html properties making it a clickable link
-
+    returnUrl();
+    function returnUrl(){ // function that displays the wrapped url to the user, these will be standalone links
+        document.getElementById('mainListUrl').innerHTML += wrappedUrl;
+    }
     //document.getElementById('urlList').innterHTML += `${wrappedUrl}`;
 }
+
+
 
 
 
