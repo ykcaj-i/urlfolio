@@ -1,17 +1,13 @@
 /*
 addEventListener("click", function(event){ //prevent page from auto refreshing
-    let eventpreventDefault = 0;
     event.preventDefault()
-    eventPreventDefault++
-    if (eventPreventDefault > 0){
-        removeEventListener("click", handler);
-    }
 });
 */
-
-
-
-
+var form = document.getElementById("urlForm");
+function submitForm(event) {
+    event.preventDefault();
+ }
+ form.addEventListener('submit', submitForm);
 
 
 //url submit
@@ -23,13 +19,13 @@ document.getElementById('submit1').onclick = function(){ // input form for the U
                      // but templateUrl will be used for manipulation while originalUrl wil be used purely just for the href
 
     
-    if((url.includes("https://")) && (url.includes(".com"))){ // if originalUrl has a valid url with proper formatting such as "https:// and .com" then we can pass on the value, and additionally store it into templateUrl for modification  
+    if(((url.includes("https://")) || ((url.includes("www.")))) && (url.includes(".com"))){ // if originalUrl has a valid url with proper formatting such as "https:// and .com" then we can pass on the value, and additionally store it into templateUrl for modification  
         console.log("is a proper link");
         templateUrl = originalUrl; 
         htmlWrapper(templateUrl, originalUrl);  
     } else {                                               
         console.log("is not a proper link"); 
-        originalUrl = "https://" + originalUrl + ".com";
+        originalUrl = "https://www." + originalUrl + ".com";
         templateUrl = originalUrl;
         htmlWrapper(templateUrl, originalUrl); 
     }
