@@ -41,7 +41,9 @@ function createObject(){ //create an object with the div wrapped url and the cop
 }
 
 
+function openUrl(){ //experimental function to launch url
 
+}
 
 
 
