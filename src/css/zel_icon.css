@@ -2,9 +2,9 @@
 
 #title{
     
-    font-family: "Caveat"; /*Playfair Display*/
+    font-family: "Unica One"; /*Caveat*/
     /*color: rgb(118, 126, 129);*/
-    font-weight: 600;
+    font-weight: 500;
     text-align: left;
     padding-left: 0.25em;
     font-size: 250%;    
@@ -51,16 +51,21 @@
  
 /*text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;*/
  #titleSpan:hover{
-    color: rgb(211, 211, 211);
-    transition: color 1.25s;
+    color: rgb(57, 55, 102);
+    transition: color 1.5s ease-in-out;
     cursor: pointer;
+    transform: scale(2);
+
+    background: linear-gradient(to right, rgb(57, 55, 102) , rgb(57, 55, 102) 50% , rgb(63, 141, 122));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
  }
 
 
 #titleSpan:hover > #star{
     transform: rotate(180deg);
     color:rgba(0,0,0,0);
-    background: conic-gradient(rgb(220, 173, 20),rgb(27, 219, 145),rgb(107, 73, 185),rgb(34, 185, 165));
+    background: conic-gradient(rgb(220, 20, 130),rgb(27, 219, 145),rgb(107, 73, 185),rgb(34, 185, 165));
     -webkit-background-clip:text;
     background-clip: text;
 
