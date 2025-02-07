@@ -52,13 +52,16 @@
 /*text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;*/
  #titleSpan:hover{
     color: rgb(57, 55, 102);
-    transition: color 1.5s ease-in-out;
+    transition: color 1.25s;
     cursor: pointer;
-    transform: scale(2);
 
+    /*
+    transition: background-color 250ms;
     background: linear-gradient(to right, rgb(57, 55, 102) , rgb(57, 55, 102) 50% , rgb(63, 141, 122));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    */
+ 
  }
 
 
