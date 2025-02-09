@@ -51,7 +51,7 @@
  
 /*text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;*/
  #titleSpan:hover{
-    color: rgb(57, 55, 102);
+    color: rgb(55, 60, 102);
     transition: color 1s;
     cursor: pointer;
     
@@ -68,7 +68,7 @@
 #titleSpan:hover > #star{
     transform: rotate(180deg);
     color:rgba(0,0,0,0);
-    background: conic-gradient(rgb(220, 20, 130),rgb(27, 219, 145),rgb(107, 73, 185),rgb(34, 185, 165));
+    background: conic-gradient(rgb(26, 170, 170),rgb(27, 219, 145),rgb(107, 73, 185),rgb(34, 185, 165));
     -webkit-background-clip:text;
     background-clip: text;
 
