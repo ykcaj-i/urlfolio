@@ -39,7 +39,7 @@ body{
 }
 
 .lol{
-  color: rgb(58, 102, 84);
+  color: rgb(151, 151, 151);
 }
 
 .lol:hover{
@@ -167,7 +167,10 @@ body{
 .wrap{
   overflow: auto;
   font-size: small;
-  color: rgba(20, 110, 126, 0.747);
+}
+
+a:visited{
+  color: rgb(78, 34, 119);
 }
 
 
