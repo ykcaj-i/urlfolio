@@ -43,7 +43,7 @@ body{
 }
 
 .lol:hover{
-  color: rgb(168, 168, 168);
+  color: rgb(255, 255, 255);
   transition: all ease 0.5s;
   
 }
@@ -170,9 +170,11 @@ body{
 }
 
 a:visited{
-  color: rgb(78, 34, 119);
+  color: rgb(99, 51, 145);
 }
-
+a:unvisited{
+  color: rgb(99, 51, 145);
+}
 
 #categoryListContainer{  /*properties of the container*/
   display: flex;
