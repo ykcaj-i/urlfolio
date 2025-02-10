@@ -3,7 +3,7 @@ addEventListener("click", function(event){ //prevent page from auto refreshing
     event.preventDefault()
 });
 */
-var form = document.getElementById("urlForm");
+var form = document.getElementById("urlForm", "categoryForm");
 function submitForm(event) {
     event.preventDefault();
  }
@@ -71,14 +71,43 @@ there will then be a final function called deployAll where the user can click a 
 all the links will be stored into the array unwrapped, but it's cousin the wrappedUrl will be stored on the categorycontainer, this is so users can just click on the normal links..
 or if they want to automate the whole process, open all the links at the same time. 
 
-eventually we will add t
+let's add some functions
+
+1.
+storeUrlToCookies() : save url to local storage
+storeUrlToDatabase() : save url to database
+
+2.
+categoryObjectConstructor() : object contructor that creates category objects
+
+3.
+arrayConstructor() : takes category object's string name and makes an array, make the category object the superset/parent of the array
+
+4. 
+pushToArray()
+takes url and then pushes it to an array with a click of a button
+
+5.
+showCategoryOnHover()
+when user hovers over link, shows a small window of the list of categories
+
+
 
 */
 
 
 
+document.getElementById('submit2').onclick = function(){ // input form for the category
+    let categoryFormInputValue = document.getElementById('category').value;
+    let category = String(categoryFormInputValue); // covert form input into a string
 
 
+}
+
+
+function categoryObjectConstructor(){
+
+}
 
 
 
