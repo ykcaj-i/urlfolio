@@ -172,7 +172,7 @@ body{
 a:visited{
   color: rgb(99, 51, 145);
 }
-a:unvisited{
+a:link{
   color: rgb(99, 51, 145);
 }
 

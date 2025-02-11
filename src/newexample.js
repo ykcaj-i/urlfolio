@@ -100,18 +100,19 @@ when user hovers over link, shows a small window of the list of categories
 document.getElementById('submit2').onclick = function(){ // input form for the category
     let categoryFormInputValue = document.getElementById('category').value;
     let category = String(categoryFormInputValue); // covert form input into a string
-
-
+    let description = "test pass"
+    categoryObjectConstructor(categoryName, description);
 }
 
 
-function categoryObjectConstructor(){
-
+function categoryObjectConstructor(categoryName, description){
+    window[categoryName] = description;
+    document.getElementById('categoryListContainer').innerHTML += categoryName;
 }
 
-const thisCategory{};
 
-thisCategory.myArray = [1,2,3]
+
+thisCategory.myArray = [1,2,3];
 
 /*
 array.name = category
