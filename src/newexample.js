@@ -3,14 +3,14 @@ addEventListener("click", function(event){ //prevent page from auto refreshing
     event.preventDefault()
 });
 */
-var form = document.getElementById("urlForm");
+var form = document.getElementById("urlForm");  // prevent site from refreshing on url form submission
 function submitForm(event) {
     event.preventDefault();
  }
  form.addEventListener('submit', submitForm);
 
 
- var form = document.getElementById("categoryForm");
+ var form = document.getElementById("categoryForm");    // prevent site from refreshing on category form submission
  function submitForm(event) {
      event.preventDefault();
   }
@@ -121,6 +121,9 @@ function categoryObjectConstructor(category, description){
 
 }
 
+function prototypeMakeAnObjectCategory(){
+
+}
 
 
 /*
