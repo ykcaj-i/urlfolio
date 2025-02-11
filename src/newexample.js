@@ -3,11 +3,19 @@ addEventListener("click", function(event){ //prevent page from auto refreshing
     event.preventDefault()
 });
 */
-var form = document.getElementById("urlForm", "categoryForm");
+var form = document.getElementById("urlForm");
 function submitForm(event) {
     event.preventDefault();
  }
  form.addEventListener('submit', submitForm);
+
+
+ var form = document.getElementById("categoryForm");
+ function submitForm(event) {
+     event.preventDefault();
+  }
+  form.addEventListener('submit', submitForm);
+ 
 
 
 //url submit
@@ -101,18 +109,19 @@ document.getElementById('submit2').onclick = function(){ // input form for the c
     let categoryFormInputValue = document.getElementById('category').value;
     let category = String(categoryFormInputValue); // covert form input into a string
     let description = "test pass"
-    categoryObjectConstructor(categoryName, description);
+    categoryObjectConstructor(category, description, );
+    console.log("pass?");
+    console.log(`${category}`);
 }
 
 
-function categoryObjectConstructor(categoryName, description){
-    window[categoryName] = description;
-    document.getElementById('categoryListContainer').innerHTML += categoryName;
+function categoryObjectConstructor(category, description){
+    window[category] = category;
+    document.getElementById('categoryListContainer').innerHTML += window[category] + "<br>";
+
 }
 
 
-
-thisCategory.myArray = [1,2,3];
 
 /*
 array.name = category
@@ -123,6 +132,8 @@ the object is the category, therefore the object we're creating is called "reddi
 we will create a new object identifying it as an object called redditResearch
 redditResearch will have multiple properties, we will give it an array
 
+delete redditResearch if user decides to delete it  
+
 */ 
 
 
@@ -130,4 +141,3 @@ redditResearch will have multiple properties, we will give it an array
 
 
 
-/*delete redditResearch if user decides to delete it  */
