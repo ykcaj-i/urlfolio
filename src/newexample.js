@@ -55,14 +55,6 @@ function htmlWrapper(originalUrl, templateUrl){ //add an href to the url
 
 
 
-function createObject(){ //create an object with the div wrapped url and the copy of url
-    
-}
-
-
-function openUrl(){ //experimental function to launch url
-
-}
 
 
 
@@ -103,7 +95,7 @@ when user hovers over link, shows a small window of the list of categories
 
 */
 
-
+const categoryObject = {};
 
 document.getElementById('submit2').onclick = function(){ // input form for the category
     let categoryFormInputValue = document.getElementById('category').value;
@@ -118,14 +110,27 @@ document.getElementById('submit2').onclick = function(){ // input form for the c
 function categoryObjectConstructor(category, description){
     window[category] = category;
     document.getElementById('categoryListContainer').innerHTML += window[category] + "<br>";
+    prototypeMakeAnObjectCategory(category);
 
 }
 
-function prototypeMakeAnObjectCategory(){
-
+function prototypeMakeAnObjectCategory(category){
+    let prototypeCategory = category;
+    console.log(`prototype: ${prototypeCategory}` );
+   
+    object["name"]=`${prototypeCategory}`;
+   
 }
 
+function makeAnObject(){
+    let categoryObject = {
+        data: []
+    };
+}
 
+function addayInObject(){
+    categoryObject.data.push()
+}
 /*
 array.name = category
     category.urls = [];

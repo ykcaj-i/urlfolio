@@ -14,8 +14,8 @@ body{
 
 
 .navbar{
-  padding-top: 1em;
-  padding-left: 3em;
+  padding-top: 0.5em;
+
 }
 
 /*text-decoration: underline 1px rgb(102, 95, 58);*/
@@ -29,7 +29,6 @@ body{
   padding: 0.25em;
   padding-top: 0.35em;
   padding-bottom: 0.35em;
-
 }
 
 #navbuttons a{

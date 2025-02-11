@@ -6,7 +6,8 @@
     /*color: rgb(118, 126, 129);*/
     font-weight: 500;
     text-align: left;
-    padding-left: 0.25em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     font-size: 250%;    
     /*color: rgb(151, 151, 151);*/
 
@@ -64,9 +65,9 @@
 /*text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;*/
  #titleSpan:hover{
     /*color: rgb(223, 223, 223);*/
-    transition: color 1s;
+    transition: color 1.25s;
     cursor: pointer;
-    color: white;
+    color: rgb(40, 67, 141);
     /*
     transition: background-color 250ms;
     background: linear-gradient(to right, rgb(57, 55, 102) , rgb(57, 55, 102) 50% , rgb(63, 141, 122));
