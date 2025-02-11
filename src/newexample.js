@@ -109,5 +109,24 @@ function categoryObjectConstructor(){
 
 }
 
+const thisCategory{};
+
+thisCategory.myArray = [1,2,3]
+
+/*
+array.name = category
+    category.urls = [];
 
 
+the object is the category, therefore the object we're creating is called "reddit-research"
+we will create a new object identifying it as an object called redditResearch
+redditResearch will have multiple properties, we will give it an array
+
+*/ 
+
+
+
+
+
+
+/*delete redditResearch if user decides to delete it  */
