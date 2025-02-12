@@ -1,3 +1,5 @@
 https://www.tutorialspoint.com/how-to-stop-refreshing-the-page-on-submit-in-javascript#:~:text=Using%20%E2%80%9Creturn%20false%E2%80%9D%20to%20stop%20page%20refresh%20on%20form%20submit&text=The%20%22return%20false%22%20cancels%20the%20page%20refresh.
 https://stackoverflow.com/questions/5613834/convert-string-to-variable-name-in-javascript
 https://stackoverflow.com/questions/4763638/enter-triggers-button-click
+https://stackoverflow.com/questions/3547035/getting-html-form-values
+https://stackoverflow.com/questions/4689344/how-can-i-add-href-attribute-to-a-link-dynamically-using-javascript
