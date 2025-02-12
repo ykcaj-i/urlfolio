@@ -37,13 +37,13 @@ body{
 }
 
 .lol{
-  color: rgb(151, 151, 151);
+  color: rgb(118, 126, 129);
 }
 
 .lol:hover{
   
   transition: all ease 0.5s;
-  color: rgba(255, 255, 255, 0.788);
+  color: rgb(38, 53, 95);
 }
 
 
