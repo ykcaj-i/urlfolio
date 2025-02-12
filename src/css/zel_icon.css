@@ -21,7 +21,7 @@ https://wallpapersok.com/images/hd/dark-blue-galaxy-in-space-iphone-77ulr6vs3pcq
 
 #zel{
     color: transparent;
-    background-image: url("https://media.discordapp.net/attachments/1326704856269848600/1339274769077502113/bluegalaxy1.jpg?ex=67ae2053&is=67acced3&hm=f019c56fed2fd2795503ed9e0ac00afdd957920a55c680c59b1c92a16dcf3c26&=&format=webp&width=312&height=675");
+    background-image: url("https://media.discordapp.net/attachments/1326704856269848600/1339278939473842228/bluegalaxy2.jpg?ex=67ae2435&is=67acd2b5&hm=81e10a609deb95c16c75a0eb26ecf5de845f4f990baf075a1f6fdf24b6e97385&=&format=webp&width=312&height=675");
     background-size: 200%; 
     background-position: 0 50%;
     background-clip: text;
@@ -55,7 +55,7 @@ https://wallpapersok.com/images/hd/dark-blue-galaxy-in-space-iphone-77ulr6vs3pcq
 #star{
     display: inline-block;
     transition: 1.25s ease;
-    color: rgb(22, 38, 66);
+    color: rgb(22, 34, 66);
 }
 
 
@@ -86,7 +86,7 @@ https://wallpapersok.com/images/hd/dark-blue-galaxy-in-space-iphone-77ulr6vs3pcq
     transform: rotate(180deg);
     transition: 1.25s ease;
     
-    color:rgb(40, 92, 122);
+    color:rgb(99, 124, 153);
     /*background: conic-gradient(rgb(32, 79, 100),rgb(19, 143, 180),rgb(11, 112, 151),rgb(5, 85, 109));*/
     /*background: conic-gradient(rgb(26, 170, 170),rgb(27, 219, 145),rgb(80, 73, 185),rgb(34, 185, 165));*/
     -webkit-background-clip:text;
