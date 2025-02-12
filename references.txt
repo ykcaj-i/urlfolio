@@ -3,3 +3,4 @@ https://stackoverflow.com/questions/5613834/convert-string-to-variable-name-in-j
 https://stackoverflow.com/questions/4763638/enter-triggers-button-click
 https://stackoverflow.com/questions/3547035/getting-html-form-values
 https://stackoverflow.com/questions/4689344/how-can-i-add-href-attribute-to-a-link-dynamically-using-javascript
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer

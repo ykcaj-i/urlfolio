@@ -92,3 +92,18 @@ function createClassBox(stringCategory, categoryName, linkArray){
 function parseForm(){
 }
 
+
+/* non related js template*/
+
+const categoryObject = {};
+
+document.getElementById('submit2').onclick = function(){ // input form for the category
+    let categoryFormInputValue = document.getElementById('category').value;
+    console.log("category submitted ✓");
+    let category = String(categoryFormInputValue); // covert category form input into a string
+    categoryObjectConstructor(category); // send the string into the object constructor
+
+}
+
+
+

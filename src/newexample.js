@@ -152,5 +152,3 @@ delete redditResearch if user decides to delete it
 
 
 
-
-
