@@ -28,11 +28,11 @@ document.getElementById('submit1').onclick = function(){ // input form for the U
 
     
     if(((url.includes("https://")) || ((url.includes("www.")))) && (url.includes(".com"))){ // if originalUrl has a valid url with proper formatting such as "https:// and .com" then we can pass on the value, and additionally store it into templateUrl for modification  
-        console.log("is a proper link");
+        console.log("this link was a proper link");
         templateUrl = originalUrl; 
         htmlWrapper(templateUrl, originalUrl);  
     } else {                                               
-        console.log("is not a proper link"); 
+        console.log("this link was not a proper link"); 
         originalUrl = "https://www." + originalUrl + ".com";
         templateUrl = originalUrl;
         htmlWrapper(templateUrl, originalUrl); 
@@ -100,14 +100,20 @@ const categoryObject = {};
 document.getElementById('submit2').onclick = function(){ // input form for the category
     let categoryFormInputValue = document.getElementById('category').value;
     let category = String(categoryFormInputValue); // covert form input into a string
-    let description = "test pass"
-    categoryObjectConstructor(category, description, );
-    console.log("pass?");
-    console.log(`${category}`);
+    console.log("category submitted ✓");
+    categoryObjectConstructor(category);
+
 }
 
 
-function categoryObjectConstructor(category, description){
+
+
+
+
+
+
+function categoryObjectConstructor(category){
+    console.log(`object-category: ${category}`);
     window[category] = category;
     document.getElementById('categoryListContainer').innerHTML += window[category] + "<br>";
     prototypeMakeAnObjectCategory(category);
@@ -116,9 +122,8 @@ function categoryObjectConstructor(category, description){
 
 function prototypeMakeAnObjectCategory(category){
     let prototypeCategory = category;
-    console.log(`prototype: ${prototypeCategory}` );
-   
-    object["name"]=`${prototypeCategory}`;
+    console.log(`array-prototype: ${prototypeCategory}` );
+
    
 }
 
@@ -131,6 +136,7 @@ function makeAnObject(){
 function addayInObject(){
     categoryObject.data.push()
 }
+
 /*
 array.name = category
     category.urls = [];
