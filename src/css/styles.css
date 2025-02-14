@@ -47,8 +47,9 @@ body{
 
 .lol:hover{
   
-  transition: all ease 0.5s;
+  transition: all ease 0.75s;
   color: rgb(187, 192, 204);
+
 }
 
 
