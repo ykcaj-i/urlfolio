@@ -1,7 +1,6 @@
 
 body{
   font-family: Reddit Mono;
-
   background: rgb(11, 14, 19); /*default dark mode rgb(20, 21, 24)*/ 
   /*rgb(7, 12, 22) */
   color: rgb(118, 126, 129);
@@ -14,17 +13,10 @@ body{
 
 
 .navbar{
-  
   padding-top: 0.5em;
- 
- 
-
-
 }
 
 /*text-decoration: underline 1px rgb(102, 95, 58);*/
-
-
 
 #navbuttons{
   display:flex; 
