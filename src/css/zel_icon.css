@@ -81,17 +81,32 @@ https://wallpapersok.com/images/hd/dark-blue-galaxy-in-space-iphone-77ulr6vs3pcq
 #titleSpan:hover > #star{
     transform: rotate(180deg);
     transition: 1.25s ease;
-   
+    color: rgb(11, 14, 19);
 
     /*
     background-color:rgb(19, 30, 59);
     clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
     border-radius: 100%;*/
-  
+    
+    text-shadow: 0px 0px 15px  rgb(41, 62, 121), 0px -1px 20px rgba(41, 47, 133, 0.87);
+    /*
+      text-shadow: 
+    10px 0 0 rgb(22, 34, 66), 
+    -10px 0 0 rgb(22, 34, 66), 
+    0 0px 0 rgb(22, 34, 66),  
+    0 0px 0 rgb(22, 34, 66); 
 
+     text-shadow: 
+    -10px 0 0 rgb(22, 34, 66),
+    10px 0 0 rgb(22, 34, 66), 
+    0 10px 0 rgb(22, 34, 66), 
+    0 -10px 0 rgb(22, 34, 66); 
+ 
+    */
 
-    text-shadow: 0px 0px 15px  rgb(33, 66, 158), 0px -1px 20px rgba(41, 47, 133, 0.87);
-    color: rgb(11, 14, 19);
+/*
+   */
+   
     /*background: conic-gradient(rgb(32, 79, 100),rgb(19, 143, 180),rgb(11, 112, 151),rgb(5, 85, 109));*/
     /*background: conic-gradient(rgb(26, 170, 170),rgb(27, 219, 145),rgb(80, 73, 185),rgb(34, 185, 165));*/
    /* -webkit-background-clip:text;
