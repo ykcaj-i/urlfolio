@@ -37,8 +37,8 @@ body{
 }
 
 #navbuttons a{
-  padding-left: 0.35em;
-  padding-right: 0.35em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .lol{
@@ -49,7 +49,6 @@ body{
   
   transition: all ease 0.75s;
   color: rgb(187, 192, 204);
-
 }
 
 
