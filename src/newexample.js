@@ -108,11 +108,17 @@ document.getElementById('submit2').onclick = function(){ // input form for the c
 }
 
 
-                       
+function categoryObjectConstructor(category){
+    
+}     
 
 
 
 
+
+
+
+/*
 
 function categoryObjectConstructor(category){
     console.log(`object-category: ${category}`);
@@ -137,6 +143,7 @@ function makeAnObject(){
 function addayInObject(){
     categoryObject.data.push()
 }
+*/
 
 /*
 array.name = category
