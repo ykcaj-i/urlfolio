@@ -119,7 +119,6 @@ function categoryObjectConstructor(category){
     window[category] = category;
     document.getElementById('categoryListContainer').innerHTML += window[category] + "<br>";
     prototypeMakeAnObjectCategory(category);
-
 }
 
 function prototypeMakeAnObjectCategory(category){
