@@ -23,11 +23,11 @@ body{
   justify-content: left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: linear-gradient(to right, rgb(22, 39, 61) , rgb(86, 31, 100), rgb(143, 126, 126));
+  background-image: linear-gradient(to right, rgb(22, 39, 61) , rgb(86, 31, 100), rgb(143, 126, 142));
   border-radius: 25px;
   padding: 0.25em;
-  padding-top: 0.35em;
-  padding-bottom: 0.35em;
+  padding-top: 0.50em;
+  padding-bottom: 0.50em;
 }
 
 #navbuttons a{
