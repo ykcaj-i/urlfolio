@@ -27,11 +27,11 @@ body{
   justify-content: left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: linear-gradient(to right, rgb(22, 39, 61),  rgb(86, 31, 100) 10%, rgb(21, 21, 48), rgb(58, 43, 43));
+  background-image: linear-gradient(to right, rgb(22, 39, 61),  rgb(86, 31, 100) 10%, rgb(168, 94, 131), rgb(146, 136, 167));
   border-radius: 10px;
   padding: 0.25em;
-  padding-top: 0.05em;
-  padding-bottom: 0.05em;
+  padding-top: 0.50em;
+  padding-bottom: 0.50em;
   -webkit-animation: Animation 5s ease infinite;
   -moz-animation: Animation 5s ease infinite;
   animation: Animation 5s ease infinite;
@@ -80,7 +80,6 @@ body{
 .lol:hover{
   transition: all ease 0.60s;
   color: rgb(235, 237, 240);
-
 }
 
 
