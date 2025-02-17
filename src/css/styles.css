@@ -2,7 +2,7 @@
 body{
   font-family: Reddit Mono;
   background: rgb(11, 14, 19); /*default dark mode rgb(20, 21, 24)*/ 
-  /*rgb(7, 12, 22) */
+  /*rgb(7, 12, 22)    rgb(16, 21, 39) */ 
   color: rgb(118, 126, 129);
 }
 
@@ -26,7 +26,7 @@ body{
   justify-content: space-left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: url(ai2.gif), linear-gradient(to right, rgba(22, 39, 61),  rgb(75, 31, 100) 10%,rgb(174, 91, 164), rgb(118, 209, 186),rgb(130, 166, 221), rgb(255, 255, 255), rgb(235, 247, 255));
+  background-image: url(ai2.gif), linear-gradient(to right, rgba(22, 39, 61),  rgb(80, 31, 100) 10%,rgb(104, 82, 164), rgb(118, 197, 209),rgb(130, 166, 221), rgb(255, 255, 255), rgb(235, 247, 255));
   border-radius: 10px;
   padding: 0.25em;
   padding-top: 0em;
@@ -68,6 +68,7 @@ body{
 .lol{
   color:  rgb(186, 210, 232);
   transition: 0.5s;
+  font-size:15px;
   /*
   rgb(118, 126, 129)
   rgb(62, 72, 99)
