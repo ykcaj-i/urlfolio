@@ -31,8 +31,8 @@ body{
   padding: 0.25em;
   padding-top: 0em;
   padding-bottom: 0em;
-  background-size: 60%, 100%;
-  background-position: 150% , 200%;/* Position image1 at top-left, image2 at center */
+  background-size: 50%, 100%;
+  background-position: 125% , 200%;/* Position image1 at top-left, image2 at center */
   background-repeat: no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
   height: 95px;
 }
@@ -66,7 +66,7 @@ body{
 
 
 .lol{
-  color:  rgb(178, 201, 221);
+  color:  rgb(186, 210, 232);
   transition: 0.5s;
   /*
   rgb(118, 126, 129)
