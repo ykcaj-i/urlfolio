@@ -52,7 +52,7 @@ https://wallpapersok.com/images/hd/dark-blue-galaxy-in-space-iphone-77ulr6vs3pcq
 
 #star{
     display: inline-block;
-    transition: 1.25s ease;
+    transition: 1.5s ease;
     color: rgb(22, 32, 66);
 }
 
@@ -80,7 +80,7 @@ https://wallpapersok.com/images/hd/dark-blue-galaxy-in-space-iphone-77ulr6vs3pcq
 #titleSpan:hover > #star{
     transform: rotate(180deg);
     transition: 1.25s ease;
-    color: rgb(118, 136, 184);
+    color: rgb(113, 129, 173);
 
     /*
     background-color:rgb(19, 30, 59);
