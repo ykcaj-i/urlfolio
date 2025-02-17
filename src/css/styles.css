@@ -76,7 +76,7 @@ body{
 }
 
 .lol:hover{
-  
+
   transition: all ease .5s;
   color: rgb(255, 255, 255);
 }
