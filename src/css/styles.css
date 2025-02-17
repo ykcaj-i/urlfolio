@@ -57,7 +57,7 @@ body{
 }
 
 .lol{
-  color:  rgb(172, 200, 209);
+  color:  rgb(139, 159, 177);
   transition: 0.5s;
   /*
   rgb(118, 126, 129)
@@ -66,8 +66,8 @@ body{
 }
 
 .lol:hover{
-  text-shadow: 0 0 5px rgb(49, 166, 233);
-  transition: all ease .75s;
+  
+  transition: all ease .5s;
   color: rgb(255, 255, 255);
 }
 
