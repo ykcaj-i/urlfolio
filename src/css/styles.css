@@ -30,6 +30,7 @@ body{
   background-image: url(), linear-gradient(to right, rgb(22, 39, 61),  rgb(86, 31, 100) 10%, rgb(130, 96, 168), rgb(109, 157, 170));
   border-radius: 10px;
   padding: 0.25em;
+
   padding-top: 0em;
   padding-bottom: 0em;
   background-position: 60%, 30% , 0, 0;/* Position image1 at top-left, image2 at center */
