@@ -26,16 +26,19 @@ body{
   justify-content: space-left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: url(ai2.gif), linear-gradient(to right, rgba(22, 39, 61),  rgb(75, 39, 98) 10%,rgb(132, 77, 137), rgb(111, 184, 195),rgb(130, 166, 221), rgb(255, 255, 255), rgb(235, 247, 255));
+  background-image: url(ai2.gif), url(aball.png),linear-gradient(to right, rgba(22, 39, 61),  rgb(75, 39, 98) 10%,rgb(132, 77, 137), rgb(111, 184, 195),rgb(130, 166, 221), rgb(255, 255, 255), rgb(235, 247, 255));
   border-radius: 10px;
   padding: 0.25em;
   padding-top: 0em;
   padding-bottom: 0em;
-  background-size: 50%, 100%;
-  background-position: 125% , 200%;/* Position image1 at top-left, image2 at center */
-  background-repeat: no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
+  
+  background-size: 50%, 15%, 100%;
+  background-position: 125% ,50%, 200%;/* Position image1 at top-left, image2 at center */
+  background-repeat: no-repeat, no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
   height: 95px;
 }
+
+
 
 @media (max-width: 1600px) {
   .navbuttons {
@@ -66,6 +69,7 @@ body{
 
 
 .lol{
+  
   color:  rgb(186, 210, 232);
   transition: 0.5s;
   font-size:15px;
