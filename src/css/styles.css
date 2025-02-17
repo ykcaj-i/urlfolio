@@ -27,7 +27,7 @@ body{
   justify-content: left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: url(), linear-gradient(to right, rgb(22, 39, 61),  rgb(86, 31, 100) 10%,rgb(207, 94, 122), rgb(109, 157, 170));
+  background-image: url(), linear-gradient(to right, rgb(22, 39, 61),  rgb(86, 31, 100) 20%,rgb(149, 231, 95), rgb(109, 157, 170));
   border-radius: 10px;
   padding: 0.25em;
 
@@ -66,7 +66,7 @@ body{
 }
 
 .lol:hover{
-  text-shadow: 0 0 5px rgb(3, 156, 177);
+  text-shadow: 0 0 5px rgb(49, 166, 233);
   transition: all ease .75s;
   color: rgb(255, 255, 255);
 }
