@@ -26,13 +26,13 @@ body{
   justify-content: space-left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: url(ai2.gif), linear-gradient(to right, rgba(22, 39, 61),  rgb(80, 31, 100) 10%,rgb(104, 82, 164), rgb(118, 197, 209),rgb(130, 166, 221), rgb(255, 255, 255), rgb(235, 247, 255));
+  background-image: url(ai2.gif), linear-gradient(to right, rgba(22, 39, 61),  rgb(68, 40, 99) 10%,rgb(106, 64, 134), rgb(111, 184, 195),rgb(130, 166, 221), rgb(255, 255, 255), rgb(235, 247, 255));
   border-radius: 10px;
   padding: 0.25em;
   padding-top: 0em;
   padding-bottom: 0em;
   background-size: 50%, 100%;
-  background-position: 125% , 200%;/* Position image1 at top-left, image2 at center */
+  background-position: 130% , 200%;/* Position image1 at top-left, image2 at center */
   background-repeat: no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
   height: 95px;
 }
