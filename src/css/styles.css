@@ -27,7 +27,7 @@ body{
   justify-content: left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: url(), linear-gradient(to right, rgb(22, 39, 61),  rgb(86, 31, 100) 20%,rgb(149, 231, 95), rgb(109, 157, 170));
+  background-image: url(), linear-gradient(to right, rgba(22, 39, 61),  rgb(75, 31, 100) 20%,rgb(124, 85, 185), rgb(149, 152, 196));
   border-radius: 10px;
   padding: 0.25em;
 
