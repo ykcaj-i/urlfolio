@@ -3,7 +3,7 @@ body{
   font-family: Reddit Mono;
   background: rgb(11, 14, 19); /*default dark mode rgb(20, 21, 24)*/ 
   /*rgb(7, 12, 22)    rgb(16, 21, 39) */ 
-  color: rgb(118, 126, 129);
+  color:  rgb(153, 172, 189);
 }
 
 
@@ -26,14 +26,14 @@ body{
   justify-content: space-left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: url(ai2.gif), url(aball.png),linear-gradient(to right, rgba(22, 39, 61),  rgb(75, 39, 98) 10%,rgb(132, 77, 137), rgb(111, 184, 195),rgb(130, 166, 221), rgb(255, 255, 255), rgb(235, 247, 255));
+  background-image: url(ai2.gif), url(),linear-gradient(to right, rgba(22, 39, 61),  rgb(75, 39, 98) 10%,rgb(132, 77, 137), rgb(66, 148, 168),rgb(130, 166, 221), rgb(255, 255, 255), rgb(235, 247, 255));
   border-radius: 10px;
   padding: 0.25em;
   padding-top: 0em;
   padding-bottom: 0em;
   
   background-size: 50%, 15%, 100%;
-  background-position: 125% ,60%, 200%;/* Position image1 at top-left, image2 at center */
+  background-position: 130% ,60%, 200%;/* Position image1 at top-left, image2 at center */
   background-repeat: no-repeat, no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
   height: 95px;
 }
@@ -70,7 +70,7 @@ body{
 
 .lol{
   
-  color:  rgb(209, 225, 240);
+  color:  rgb(171, 192, 212);
   transition: 0.5s;
   font-size:15px;
   /*
