@@ -26,7 +26,7 @@ body{
   justify-content: space-left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: url(ai2.gif), linear-gradient(to right, rgba(22, 39, 61),  rgb(75, 31, 100) 10%,rgb(170, 90, 176),rgb(107, 177, 223), rgb(255, 255, 255), rgb(235, 247, 255));
+  background-image: url(ai2.gif), linear-gradient(to right, rgba(22, 39, 61),  rgb(75, 31, 100) 10%,rgb(174, 91, 164), rgb(118, 209, 186),rgb(130, 166, 221), rgb(255, 255, 255), rgb(235, 247, 255));
   border-radius: 10px;
   padding: 0.25em;
   padding-top: 0em;
