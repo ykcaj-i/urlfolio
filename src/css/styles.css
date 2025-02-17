@@ -21,26 +21,29 @@ body{
 
 
 
-
 .navbuttons{
   display:flex; 
-  justify-content: left;
+  justify-content: space-left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: url(), linear-gradient(to right, rgba(22, 39, 61),  rgb(75, 31, 100) 20%,rgb(124, 85, 185), rgb(149, 152, 196));
+  background-image: url(ai2.gif), linear-gradient(to right, rgba(22, 39, 61),  rgb(75, 31, 100) 10%,rgb(170, 90, 176),rgb(107, 177, 223), rgb(255, 255, 255), rgb(235, 247, 255));
   border-radius: 10px;
   padding: 0.25em;
-
   padding-top: 0em;
   padding-bottom: 0em;
-  background-position: 60%, 30% , 0, 0;/* Position image1 at top-left, image2 at center */
+  background-size: 60%, 100%;
+  background-position: 150% , 200%;/* Position image1 at top-left, image2 at center */
   background-repeat: no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
-
-
-
+  height: 95px;
 }
 
+@media (max-width: 1600px) {
+  .navbuttons {
+    height: 170px;
 
+
+  }
+}
 /*
 @media screen and (max-width: 520px){
   
@@ -51,13 +54,19 @@ body{
 */
 
 .navbuttons a{
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
 
 }
 
+
+.divider{
+  color: rgb(196, 196, 196);
+}
+
+
 .lol{
-  color:  rgb(139, 159, 177);
+  color:  rgb(178, 201, 221);
   transition: 0.5s;
   /*
   rgb(118, 126, 129)
