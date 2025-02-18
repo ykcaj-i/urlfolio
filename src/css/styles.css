@@ -26,7 +26,7 @@ body{
   justify-content: space-left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: url(ai2.gif), url(aball.png),linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(110, 77, 137), rgb(66, 136, 168),rgb(130, 166, 221), rgb(255, 255, 255), rgb(235, 247, 255));
+  background-image: url(ai2.gif), url(aball.png),linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(110, 77, 137), rgb(66, 136, 168),rgb(143, 192, 130), rgb(255, 255, 255), rgb(235, 247, 255));
   border-radius: 10px;
   padding: 0.25em;
   padding-top: 0em;

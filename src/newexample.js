@@ -96,7 +96,7 @@ when user hovers over link, shows a small window of the list of categories
 */
 
 /*global variable*/ 
-const categoryObject = {};  // object that will store all the category arrays
+const categoryObjects = {};  // object that will store all the category arrays
 
 
 document.getElementById('submit2').onclick = function(){ // input form for the category
@@ -104,15 +104,22 @@ document.getElementById('submit2').onclick = function(){ // input form for the c
     let category = String(categoryFormInputValue); // covert the variable into a string 
     
     console.log("category submitted ✓"); // check that the category has been submitted
-    createArray(category); // send the variable category into the function which takes strings and creates an array out of them 
+    createArray(categoryFormInputValue, category); // send the variable category into the function which takes strings and creates an array out of them 
 
 }
 
 
-function createArray(category){
-    console.log("enter createArray function");
-    categoryObject[category] = [];
-    console.log("show array" + " " + categoryObject.category);
+function createArray(categoryFormInputValue, category){
+
+    categoryObject[categoryFormInputValue] = [];
+    console.log(categoryObject);
+    pushTestValues(categoryObject, categoryFormInputValue);
+    this.categoryFormInputValue
+}
+
+function pushTestValues(categoryFormInputValue, categoryObject){
+    categoryObject.push(1);
+    console.log(categoryObject);
 }
 
 /*
