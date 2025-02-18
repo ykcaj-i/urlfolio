@@ -104,15 +104,22 @@ document.getElementById('submit2').onclick = function(){ // input form for the c
     let category = String(categoryFormInputValue); // covert the variable into a string 
     
     console.log("category submitted ✓"); // check that the category has been submitted
-    categoryArrayConstructor(category); // send the variable category into the function which takes strings and creates an array out of them 
+    createArray(category); // send the variable category into the function which takes strings and creates an array out of them 
 
 }
 
 
+function createArray(category){
+    console.log("enter createArray function");
+    categoryObject[category] = [];
+    console.log("show array" + " " + categoryObject.category);
+}
+
+/*
 function categoryArrayConstructor(category){
     window[category] = category;
     document.getElementById('categoryListContainer').innerHTML += window[category] + "<br>";
-}     
+}  */   
 
 
 
