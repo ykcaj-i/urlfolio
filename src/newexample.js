@@ -96,20 +96,22 @@ when user hovers over link, shows a small window of the list of categories
 */
 
 /*global variable*/ 
-const categoryObject = {};  // initialize the object which will store all the arrays(categories) that will contain all the URLs
+const categoryObject = {};  // object that will store all the category arrays
 
 
 document.getElementById('submit2').onclick = function(){ // input form for the category
     let categoryFormInputValue = document.getElementById('category').value; //store the value into a variable
-    let category = String(categoryFormInputValue); // covert the variable into a string so it can be readeable and readily manipulated
-    console.log("category submitted ✓"); // check that the code has been working
-    categoryObjectConstructor(category); // send the variable category into the function which takes strings and creates an array out of them 
+    let category = String(categoryFormInputValue); // covert the variable into a string 
+    
+    console.log("category submitted ✓"); // check that the category has been submitted
+    categoryArrayConstructor(category); // send the variable category into the function which takes strings and creates an array out of them 
 
 }
 
 
-function categoryObjectConstructor(category){
-    
+function categoryArrayConstructor(category){
+    window[category] = category;
+    document.getElementById('categoryListContainer').innerHTML += window[category] + "<br>";
 }     
 
 
