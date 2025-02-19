@@ -28,11 +28,11 @@ document.getElementById('submit1').onclick = function(){ // input form for the U
 
     
     if(((url.includes("https://")) || ((url.includes("www.")))) && (url.includes(".com"))){ // if originalUrl has a valid url with proper formatting such as "https:// and .com" then we can pass on the value, and additionally store it into templateUrl for modification  
-        console.log("this link was a proper link");
+        console.log("link ✓");
         templateUrl = originalUrl; 
         htmlWrapper(templateUrl, originalUrl);  
     } else {                                               
-        console.log("this link was not a proper link"); 
+        console.log("link X"); 
         originalUrl = "https://www." + originalUrl + ".com";
         templateUrl = originalUrl;
         htmlWrapper(templateUrl, originalUrl); 
