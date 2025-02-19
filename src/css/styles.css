@@ -32,8 +32,8 @@ body{
   padding-top: 0em;
   padding-bottom: 0em;
   
-  background-size: 50%, 15%, 12%, 100%;
-  background-position: 130%, 60%, 65%, 200%;/* Position image1 at top-left, image2 at center */
+  background-size: 50%, 15%, 15%, 100%;
+  background-position: 130%, 60%, 80%, 200%;/* Position image1 at top-left, image2 at center */
   background-repeat: no-repeat, no-repeat, no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
   height: 95px;
 }
