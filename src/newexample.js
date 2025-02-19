@@ -30,14 +30,17 @@ document.getElementById('submit1').onclick = function(){ // input form for the U
     if(((url.includes("https://")) || ((url.includes("www.")))) && (url.includes(".com"))){ // if originalUrl has a valid url with proper formatting such as "https:// and .com" then we can pass on the value, and additionally store it into templateUrl for modification  
         console.log("link ✓");
         templateUrl = originalUrl; 
-        htmlWrapper(templateUrl, originalUrl);  
+        htmlWrapper(templateUrl, originalUrl); 
+        linkObjects(templateUrl, originalUrl); 
     } else {                                               
         console.log("link X"); 
         originalUrl = "https://www." + originalUrl + ".com";
         templateUrl = originalUrl;
         htmlWrapper(templateUrl, originalUrl); 
+        linkObjects(templateUrl, originalUrl);
     }
 }
+
 
 
 //probably somewhere add a function called urlCutter that cuts out URLs with long winded characters like any long google link, 
@@ -55,9 +58,12 @@ function htmlWrapper(originalUrl, templateUrl){ //add an href to the url
     //document.getElementById('urlList').innterHTML += `${wrappedUrl}`;
 }
 
+const links = {};
 
-
-
+function linkObjects(originalUrl){
+   links.url = originalUrl;
+   console.log(links);
+}
 
 
 
@@ -100,8 +106,9 @@ when user hovers over link, shows a small window of the list of categories
 */
 
 /*global variable*/ 
+/*
 const categoryObjects = {};  // object that will store all the category arrays
-
+*/
 
 document.getElementById('submit2').onclick = function(){ // input form for the category
     let categoryFormInputValue = document.getElementById('category').value; //store the value into a variable
@@ -113,17 +120,27 @@ document.getElementById('submit2').onclick = function(){ // input form for the c
 }
 
 
-function createArray(categoryFormInputValue, category){
+function createArray(category){
+   
+    
+    function CategoryObject(category){
+        this.category = category;
+        console.log("function works");
+        var topic = CategoryObject.category;
+        makeSense(topic);
+    }
 
-    categoryObject[categoryFormInputValue] = [];
+    let categoryObject = new CategoryObject(category)
+  
     console.log(categoryObject);
-    pushTestValues(categoryObject, categoryFormInputValue);
-    this.categoryFormInputValue
+
+  
+
 }
 
-function pushTestValues(categoryFormInputValue, categoryObject){
-    categoryObject.push(1);
-    console.log(categoryObject);
+function makeSense(topic){
+    let thisTopic = topic;
+   console.log(`${topic}`);
 }
 
 
