@@ -23,7 +23,7 @@ body{
 
 .navbuttons{
   display:flex; 
-  justify-content: space-left;
+  justify-content: left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
   background-image: url(ai2.gif), url(aball.png), url(stars5.gif), linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(110, 77, 137), rgb(66, 136, 168),rgb(143, 192, 130), rgb(255, 255, 255), rgb(235, 247, 255));
@@ -64,7 +64,7 @@ body{
 
 
 .divider{
-  color:  rgb(161, 187, 212);
+  color:  rgb(170, 197, 223);
 }
 
 
