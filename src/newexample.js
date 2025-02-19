@@ -39,6 +39,10 @@ document.getElementById('submit1').onclick = function(){ // input form for the U
     }
 }
 
+
+//probably somewhere add a function called urlCutter that cuts out URLs with long winded characters like any long google link, 
+// cut all the text from "&" onwards
+
 function htmlWrapper(originalUrl, templateUrl){ //add an href to the url
     let wrappedUrl = `<a href = "${originalUrl}" target = "_blank"><br>${templateUrl}<br></a>`;
     console.log("step 1. " +  `${wrappedUrl}`);
