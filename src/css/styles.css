@@ -1,8 +1,8 @@
 
 body{
   font-family: Reddit Mono;
-  background: rgb(11, 14, 19); /*default dark mode rgb(20, 21, 24)*/ 
-  /*rgb(7, 12, 22)    rgb(16, 21, 39) */ 
+  background: rgb(14, 18, 24); /*default dark mode rgb(20, 21, 24)*/ 
+  /*rgb(7, 12, 22)    rgb(16, 21, 39)  rgb(11, 14, 19)*/ 
   color:  rgb(153, 172, 189);
 }
 
@@ -32,7 +32,7 @@ body{
   padding-top: 0em;
   padding-bottom: 0em;
   
-  background-size: 50%, 15%, 15%, 100%;
+  background-size: 50%, 15%, 12%, 100%;
   background-position: 130%, 60%, 65%, 200%;/* Position image1 at top-left, image2 at center */
   background-repeat: no-repeat, no-repeat, no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
   height: 95px;
