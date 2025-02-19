@@ -1,8 +1,9 @@
 /*rgb(15, 15, 15)*/
 /*rgb(16, 17, 24)*/
 #url{
-   border: none;
-   background-color: #000000bb;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000bb;
 
    
 }
@@ -29,10 +30,11 @@
     
 }
 
-
 #category{
     border: none;
+    border-radius: 5px;
     background-color: #000000bb;
+ 
    
  }
  
@@ -46,6 +48,7 @@
  input, select, textarea{
     color: rgb(155, 165, 175);
     font-family: reddit mono;
+   
 }
 
 .submit:hover ~ #urlLabel{
