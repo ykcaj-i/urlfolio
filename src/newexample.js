@@ -122,6 +122,7 @@ function pushTestValues(categoryFormInputValue, categoryObject){
     console.log(categoryObject);
 }
 
+
 /*
 function categoryArrayConstructor(category){
     window[category] = category;
