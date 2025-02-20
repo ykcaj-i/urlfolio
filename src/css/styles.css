@@ -30,21 +30,7 @@ body{
 
 
 
-#smallNav{
- 
-  display: flex;
-  justify-content: center;
-  padding-top: 0em;
-  margin-top: 0em;
-  padding-bottom: 0.25em;
-  
-}
 
-#smallNav:hover{
-  background-color: rgba(201, 227, 235, 0.108);
-  color: rgb(226, 236, 158);
-  border-radius: 25px;
-}
 
 .navbuttons{
   overflow-y: scroll;
@@ -98,7 +84,7 @@ body{
 
 
 .navbarButtons{
-  color:  rgb(190, 214, 236);
+  color:  rgb(195, 216, 235);
   transition: 0.5s;
   font-size:15px;
   /*
@@ -110,9 +96,24 @@ body{
 .navbarButtons:hover{
   transition: all ease .5s;
   color: rgb(255, 255, 255);
+}
+
+#smallNav{
+  display: flex;
+  justify-content: center;
+  padding-top: 0em;
+  margin-top: 0em;
+  padding-bottom: 0.25em;
+}
+
+#smallNav:hover{
+  background-color: rgba(201, 227, 235, 0.108);
+  color: rgb(215, 153, 231);
+  border-radius: 25px;
 
 }
 
+/*--------------navbar---------------*/
 
 .parentContainer{
   display: flex;
