@@ -9,6 +9,16 @@ body{
 }
 
 
+@media (max-width: 1600px) {
+  .navbuttons {
+    height: 170px;
+    justify-content: space-evenly;
+
+  }
+
+  
+}
+
 #dashboard{
   color: rgb(118, 126, 129);/*rgb(9, 60, 80)*/
   border-radius: 5px;
@@ -16,8 +26,8 @@ body{
 
 
 
-#navtext{
-
+#navtext{ 
+  
 }
 
 .navbar{
@@ -27,11 +37,21 @@ body{
 /*text-decoration: underline 1px rgb(102, 95, 58);*/
 
 
-.smallNav{
+
+#smallNav{
+ 
   display: flex;
   justify-content: center;
   padding-top: 0em;
-  padding-bottom: 0.5em;
+  margin-top: 0em;
+  padding-bottom: 0.25em;
+ 
+}
+
+#smallNav:hover{
+  background-color: rgba(201, 227, 235, 0.108);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
 }
 
 .navbuttons{
@@ -46,20 +66,13 @@ body{
   padding-bottom: 0em;
   
   background-size: 50%, 15%, 15%, 100%;
-  background-position: 130%, 60%, 85%, 200%;/* Position image1 at top-left, image2 at center */
+  background-position: 130%, 60%, 68%, 200%;/* Position image1 at top-left, image2 at center */
   background-repeat: no-repeat, no-repeat, no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
   height: 95px;
 }
 
 
 
-@media (max-width: 1600px) {
-  .navbuttons {
-    height: 170px;
-    justify-content: space-evenly;
-
-  }
-}
 /*
 @media screen and (max-width: 520px){
   
@@ -82,7 +95,6 @@ body{
 
 
 .lol{
- 
   color:  rgb(190, 214, 236);
   transition: 0.5s;
   font-size:15px;
@@ -93,11 +105,10 @@ body{
 }
 
 .lol:hover{
-
   transition: all ease .5s;
   color: rgb(255, 255, 255);
-}
 
+}
 
 
 .parentContainer{
@@ -169,7 +180,7 @@ body{
   color:   rgb(167, 167, 167);
   transition: all 0.5s ease;
  
-  border-radius: 5%;
+
 }
 
 
