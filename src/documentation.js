@@ -1,10 +1,24 @@
 
+//first let's add some code for both the url and category forms to prevent refresh on submit
+
+var form = document.getElementById("urlForm");
+  function submitForm(event) {
+    event.preventDefault();
+ }
+ form.addEventListener('submit', submitForm);
+
+var form = document.getElementById("categoryForm");
+  function submitForm(event) {
+    event.preventDefault();
+  }
+  form.addEventListener('submit', submitForm);
+ 
 
 //first, initialize the object categoryList
 
 const objectCategoryList = {};
 
-/*
+/* 
 if:
 url form -> on submit = https://www.google.com 
 category form -> on submit = google
@@ -29,20 +43,29 @@ document.getElementById('submitUrl').onclick = function(){
   //let's input the input value into a variable
   let urlFormInputValue = document.getElementById('url').value;
   //then we will turn that input value into a string 
-  let url = String(urlFormInputValue); 
+  let urlString = String(urlFormInputValue); 
   //clear input field on button submit
   document.getElementById("url").value = ""; 
+  //save a copy of the strigified variable
+  let urlCopy = urlString;
 }
 //code to get the CATEGORY form submit
 document.getElementById('submitCategory').onclick = function(){ 
   //let's input the input value into a variable
   let categoryFormInputValue = document.getElementById('category').value;
   //then we will turn that input value into a string 
-  let category = String(categoryFormInputValue); 
+  let categoryString = String(categoryFormInputValue); 
   //clear input field on button submit
   document.getElementById("category").value = ""; 
+  //save a copy of the strigified variable
+  let categoryCopy = categoryString;
 }
 
+/*
+both fields should be cleared once we have grabbed the form input from both the url and category forms
+we should create a new function called 
+
+*/
 
 
 
