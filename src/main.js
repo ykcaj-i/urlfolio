@@ -3,14 +3,14 @@ addEventListener("click", function(event){ //prevent page from auto refreshing
     event.preventDefault()
 });
 */
-var form = document.getElementById("urlForm");  // prevent site from refreshing on url form submission
+var form = document.getElementById("urlForm");//prevent site from refreshing on url form submission
 function submitForm(event) {
     event.preventDefault();
  }
  form.addEventListener('submit', submitForm);
 
 
- var form = document.getElementById("categoryForm");    //prevent site from refreshing on category form submission
+ var form = document.getElementById("categoryForm");//prevent site from refreshing on category form submission
  function submitForm(event) {
      event.preventDefault();
   }
@@ -18,7 +18,7 @@ function submitForm(event) {
  
 
 
-//url submit
+
 document.getElementById('submitUrl').onclick = function(){ //input form for the URL
     
     let urlFormInputValue = document.getElementById('url').value;
@@ -27,10 +27,6 @@ document.getElementById('submitUrl').onclick = function(){ //input form for the 
     let originalUrl = url; //copy of URL to be stored as the href - eg: <a href = "originalUrl">our link</a>
     let templateUrl; //this will be the data we will use to store the url that we will manipulate, both templateUrl and originalUrl will store the same string data type
                      //but templateUrl will be used for manipulation while originalUrl wil be used purely just for the href
-    
-   
-                  
-   
     
     if(((url.includes("https://")) || ((url.includes("www.")))) && (url.includes(".com"))){ //if originalUrl has a valid url with proper formatting such as "https:// and .com" then we can pass on the value, and additionally store it into templateUrl for modification  
         console.log("link ✓");
