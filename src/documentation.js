@@ -1,8 +1,7 @@
 
-/*
-first, initialize the object categoryList
-*/
-1. 
+
+//first, initialize the object categoryList
+
 const objectCategoryList = {};
 
 /*
@@ -20,15 +19,38 @@ then we will return the two form inputs as shown instead
 url: "https://www.google.com"
 category: ""
 
-therefore it is usually recommended, but not required for users
+therefore it is usually recommended, but not required for users to input both the link and the category
 
-
-
-
-
-
-
+we can write the code:
 */
+
+//code to get the URL form submit
+document.getElementById('submitUrl').onclick = function(){ 
+  //let's input the input value into a variable
+  let urlFormInputValue = document.getElementById('url').value;
+  //then we will turn that input value into a string 
+  let url = String(urlFormInputValue); 
+  //clear input field on button submit
+  document.getElementById("url").value = ""; 
+}
+//code to get the CATEGORY form submit
+document.getElementById('submitCategory').onclick = function(){ 
+  //let's input the input value into a variable
+  let categoryFormInputValue = document.getElementById('category').value;
+  //then we will turn that input value into a string 
+  let category = String(categoryFormInputValue); 
+  //clear input field on button submit
+  document.getElementById("category").value = ""; 
+}
+
+
+
+
+
+
+
+
+
 
 
 
