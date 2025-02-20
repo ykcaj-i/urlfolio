@@ -76,14 +76,11 @@ body{
 }
 
 
-#navtext{ 
-  
-  color:  rgb(188, 214, 236);
-  transition: 0.5s;
-}
+#navtext{ }
 
 .navbarButtons{
- 
+  color:  rgb(188, 214, 236);
+  transition: 0.5s;
   font-size:15px;
   /*
   rgb(118, 126, 129)

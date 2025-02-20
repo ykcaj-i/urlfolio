@@ -64,13 +64,35 @@ function htmlWrapper(originalUrl, templateUrl){ //add an href to the url
     //document.getElementById('urlList').innterHTML += `${wrappedUrl}`;
 }
 
-const links = [];
+
+var links = [];
+var conjoinedLinks;
 
 function linkObjects(originalUrl){
    links.push(originalUrl);
    console.log(links);
+   createCookieConjoin();
+   createCookieStringify(links);
 }
 
+
+function createCookieStringify(links){
+    var json_str = JSON.stringify(links);
+    createCookie('myCookie', json_str);
+    getCookie();
+        
+}
+
+function getCookie(){
+    var json_str = getCookie('mycookie');
+    var arr = JSON.parse(json_str);
+}
+
+    function createCookie(){   
+        conjoinedLinks = links.join('|');  // Returns: "1|2|3|4"
+        console.log("conjoined: " + conjoinedLinks);
+        
+    }
 
 
 
