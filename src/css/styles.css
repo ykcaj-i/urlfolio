@@ -17,11 +17,7 @@ body{
 
 
 
-#navtext{ 
-  
-  color:  rgb(188, 214, 236);
-  transition: 0.5s;
-}
+
 
 .navbar{
   padding-top: 0em;
@@ -79,6 +75,12 @@ body{
   color:  rgb(170, 197, 223);
 }
 
+
+#navtext{ 
+  
+  color:  rgb(188, 214, 236);
+  transition: 0.5s;
+}
 
 .navbarButtons{
  
