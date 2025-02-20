@@ -37,7 +37,7 @@ body{
   padding-top: 0em;
   margin-top: 0em;
   padding-bottom: 0.25em;
- 
+  
 }
 
 #smallNav:hover{
@@ -53,14 +53,14 @@ body{
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
   background-image: url(./images-css/bubble.gif), url(./images-css/moon.png), url(./images-css/stars.gif), 
-  linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(110, 77, 137), rgb(66, 136, 168),rgb(130, 192, 157), rgb(255, 255, 255), rgb(235, 247, 255));
+  linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(110, 77, 137), rgb(66, 136, 168),rgb(130, 192, 157), rgb(255, 255, 255), rgb(255, 255, 255));
   border-radius: 10px;
   padding: 0.25em;
   padding-top: 0em;
   padding-bottom: 0em;
   
   background-size: 50%, 15%, 15%, 100%;
-  background-position: 130%, 60%, 68%, 200%;/* Position image1 at top-left, image2 at center */
+  background-position: 132%, 60%, 68%, 200%;/* Position image1 at top-left, image2 at center */
   background-repeat: no-repeat, no-repeat, no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
   height: 100px;
 }
@@ -83,14 +83,7 @@ body{
   }
 }
 
-/*
-@media screen and (max-width: 520px){
-  
-  .navbuttons{
-    border-radius: 50px;
-  }
-}
-*/
+
 
 .navbuttons a{
   padding-left: 2em;
@@ -100,7 +93,6 @@ body{
 
 
 .divider{
- 
   color:  rgb(170, 197, 223);
 }
 
