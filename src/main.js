@@ -10,7 +10,7 @@ function submitForm(event) {
  form.addEventListener('submit', submitForm);
 
 
- var form = document.getElementById("categoryForm");    // prevent site from refreshing on category form submission
+ var form = document.getElementById("categoryForm");    //prevent site from refreshing on category form submission
  function submitForm(event) {
      event.preventDefault();
   }
@@ -19,20 +19,20 @@ function submitForm(event) {
 
 
 //url submit
-document.getElementById('submitUrl').onclick = function(){ // input form for the URL
+document.getElementById('submitUrl').onclick = function(){ //input form for the URL
     
     let urlFormInputValue = document.getElementById('url').value;
-    let url = String(urlFormInputValue); // covert form input into a string
-    document.getElementById("url").value = ""; // clear input field on button submit
-    let originalUrl = url; // copy of URL to be stored as the href - eg: <a href = "originalUrl">our link</a>
-    let templateUrl; // this will be the data we will use to store the url that we will manipulate, both templateUrl and originalUrl will store the same string data type
-                     // but templateUrl will be used for manipulation while originalUrl wil be used purely just for the href
+    let url = String(urlFormInputValue); //covert form input into a string
+    document.getElementById("url").value = ""; //clear input field on button submit
+    let originalUrl = url; //copy of URL to be stored as the href - eg: <a href = "originalUrl">our link</a>
+    let templateUrl; //this will be the data we will use to store the url that we will manipulate, both templateUrl and originalUrl will store the same string data type
+                     //but templateUrl will be used for manipulation while originalUrl wil be used purely just for the href
     
    
                   
    
     
-    if(((url.includes("https://")) || ((url.includes("www.")))) && (url.includes(".com"))){ // if originalUrl has a valid url with proper formatting such as "https:// and .com" then we can pass on the value, and additionally store it into templateUrl for modification  
+    if(((url.includes("https://")) || ((url.includes("www.")))) && (url.includes(".com"))){ //if originalUrl has a valid url with proper formatting such as "https:// and .com" then we can pass on the value, and additionally store it into templateUrl for modification  
         console.log("link ✓");
         templateUrl = originalUrl; 
         htmlWrapper(templateUrl, originalUrl); 
@@ -62,7 +62,7 @@ function htmlWrapper(originalUrl, templateUrl){ //add an href to the url
     wrappedUrl = `<div class = "wrap">${wrappedUrl}</div>`;
     console.log("step 2. " + `${wrappedUrl}`); //url has been wrapped with html properties making it a clickable link
     returnUrl();
-    function returnUrl(){ // function that displays the wrapped url to the user, these will be standalone links
+    function returnUrl(){ //function that displays the wrapped url to the user, these will be standalone links
         document.getElementById('mainListUrl').innerHTML += wrappedUrl;
     }
     //document.getElementById('urlList').innterHTML += `${wrappedUrl}`;
@@ -117,23 +117,24 @@ when user hovers over link, shows a small window of the list of categories
 
 /*global variable*/ 
 /*
-const categoryObjects = {};  // object that will store all the category arrays
+const categoryObjects = {};  //object that will store all the category arrays
 */
 
-document.getElementById('submitCategory').onclick = function(){ // input form for the category
+document.getElementById('submitCategory').onclick = function(){ //input form for the category
     let categoryFormInputValue = document.getElementById('category').value; //store the value into a variable
-    let category = String(categoryFormInputValue); // covert the variable into a string 
-    document.getElementById("url").value = ""; // clear input field on button submit
-    console.log("category submitted ✓"); // check that the category has been submitted
-    createArray(categoryFormInputValue, category); // send the variable category into the function which takes strings and creates an array out of them 
+    let category = String(categoryFormInputValue); //covert the variable into a string 
+
+    console.log("category submitted ✓"); //check that the category has been submitted
+    document.getElementById("url").value = ""; //clear input field on button submit
+
+    createArray(categoryFormInputValue, category); //send the variable category into the function which takes strings and creates an array out of them 
 
 }
 
 
-function createArray(category){
-   
-    
-    function CategoryObject(category){
+function createArray(category){ //get the string category
+
+    function CategoryObject(category){  //create a function that takes the category and makes it into an object property
         this.category = category;
         console.log("function works");
         var topic = CategoryObject.category;
@@ -143,8 +144,6 @@ function createArray(category){
     let categoryObject = new CategoryObject(category)
   
     console.log(categoryObject);
-
-  
 
 }
 

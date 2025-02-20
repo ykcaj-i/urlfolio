@@ -84,7 +84,7 @@ body{
 
 
 .navbarButtons{
-  color:  rgb(195, 216, 235);
+  color:  rgb(188, 214, 236);
   transition: 0.5s;
   font-size:15px;
   /*
@@ -108,7 +108,7 @@ body{
 
 #smallNav:hover{
   background-color: rgba(201, 227, 235, 0.108);
-  color: rgb(201, 136, 229);
+  color: rgb(205, 147, 224);
   border-radius: 25px;
 
 }
