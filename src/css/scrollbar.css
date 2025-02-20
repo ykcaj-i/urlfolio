@@ -14,7 +14,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover { /* Handle on hover */
-  background: rgba(115, 191, 250, 0.699);
+  background: rgba(219, 239, 255, 0.699);
   transition: all 1s ease-in-out;
 }
 
