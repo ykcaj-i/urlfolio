@@ -96,7 +96,7 @@ body{
 }
 
 
-.lol{
+.navbarButtons{
   color:  rgb(190, 214, 236);
   transition: 0.5s;
   font-size:15px;
@@ -106,7 +106,7 @@ body{
   */
 }
 
-.lol:hover{
+.navbarButtons:hover{
   transition: all ease .5s;
   color: rgb(255, 255, 255);
 
