@@ -1,10 +1,9 @@
-
+html {scroll-behavior: smooth;}
 body{
   font-family: Reddit Mono;
   background: rgb(14, 18, 24); 
   /*default dark mode: rgb(20, 21, 24), default light mode: rgb(187, 217, 244)
-    default mode: rgb(14, 18, 24)*/ 
-  /*rgb(7, 12, 22)    rgb(16, 21, 39)  rgb(11, 14, 19) rgb(170, 197, 223)*/ 
+    default mode: rgb(14, 18, 24)*/  /*rgb(7, 12, 22)    rgb(16, 21, 39)  rgb(11, 14, 19) rgb(170, 197, 223)*/ 
   color:  rgb(136, 153, 168);
 }
 
@@ -108,7 +107,6 @@ body{
 
 #smallNav:hover{
   background-color: rgba(201, 227, 235, 0.108);
-  color: rgb(205, 147, 224);
   border-radius: 25px;
 
 }
