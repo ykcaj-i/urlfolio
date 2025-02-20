@@ -133,19 +133,19 @@ function createArray(category){ //get the string category
     function CategoryObject(category){  //create a function that takes the category and makes it into an object property
         this.category = category;
         console.log("function works");
-        var topic = CategoryObject.category;
+        let topic = CategoryObject.aCategory;
         makeSense(topic);
     }
 
-    let categoryObject = new CategoryObject(category)
+    let categoryObject = new CategoryObject.aCategory(category)
   
     console.log(categoryObject);
 
 }
 
 function makeSense(topic){
-    let thisTopic = topic;
-   console.log(`${topic}`);
+
+   console.log(`topic: ${topic}`);
 }
 
 
