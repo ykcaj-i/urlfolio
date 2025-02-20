@@ -9,15 +9,7 @@ body{
 }
 
 
-@media (max-width: 1600px) {
-  .navbuttons {
-    height: 170px;
-    justify-content: space-evenly;
 
-  }
-
-  
-}
 
 #dashboard{
   color: rgb(118, 126, 129);/*rgb(9, 60, 80)*/
@@ -55,6 +47,7 @@ body{
 }
 
 .navbuttons{
+  overflow-y: scroll;
   display:flex; 
   justify-content: left;
   cursor: pointer;
@@ -72,7 +65,15 @@ body{
   height: 95px;
 }
 
+@media (max-width: 1600px) {
+  .navbuttons {
+    height: 170px;
+    justify-content: space-evenly;
 
+  }
+
+  
+}
 
 /*
 @media screen and (max-width: 520px){
