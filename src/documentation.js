@@ -44,10 +44,10 @@ document.getElementById('submitUrl').onclick = function(){
   let urlFormInputValue = document.getElementById('url').value;
   //then we will turn that input value into a string 
   let urlString = String(urlFormInputValue); 
+  //save a copy of the strigified variable as well, we're going to need it
+  let urlStringCopy = urlString;
   //clear input field on button submit
   document.getElementById("url").value = ""; 
-  //save a copy of the strigified variable
-  let urlCopy = urlString;
 }
 //code to get the CATEGORY form submit
 document.getElementById('submitCategory').onclick = function(){ 
@@ -55,15 +55,16 @@ document.getElementById('submitCategory').onclick = function(){
   let categoryFormInputValue = document.getElementById('category').value;
   //then we will turn that input value into a string 
   let categoryString = String(categoryFormInputValue); 
+  //save a copy of the strigified variable as well, we're going to need it
+  let categoryStringCopy = categoryString;
   //clear input field on button submit
   document.getElementById("category").value = ""; 
-  //save a copy of the strigified variable
-  let categoryCopy = categoryString;
 }
 
 /*
 both fields should be cleared once we have grabbed the form input from both the url and category forms
-we should create a new function called 
+
+now that we have the values in string format of both the url and the category, we need to 
 
 */
 
