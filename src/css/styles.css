@@ -32,7 +32,7 @@ body{
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
   background-image: url(./images-css/bubble.gif), url(./images-css/moon.png), url(./images-css/stars.gif), 
-  linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(110, 77, 137), rgb(66, 136, 168),rgb(130, 180, 192), rgb(255, 255, 255), rgb(255, 255, 255)); /*rgb(130, 192, 157)*/
+  linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(110, 77, 137), rgb(66, 136, 168),rgb(130, 192, 157), rgb(255, 255, 255), rgb(255, 255, 255)); /*rgb(130, 192, 157)*/
   border-radius: 10px;
   padding: 0.25em;
   padding-top: 0em;
