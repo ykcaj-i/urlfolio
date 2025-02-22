@@ -240,10 +240,10 @@ body{
 }
 
 a:visited{
-  color: rgb(99, 51, 145);
+  color: rgb(104, 55, 150);
 }
 a:link{
-  color: rgb(99, 51, 145);
+  color: rgb(104, 55, 150);
 }
 
 #categoryListContainer{  /*properties of the container*/
