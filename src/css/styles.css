@@ -36,7 +36,7 @@ body{
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
   background-image: url(./images-css/ufo.png), url(./images-css/moonloweropacity.png), url(./images-css/stars.gif), 
-  linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(22, 36, 61), rgb(17, 27, 46),rgb(17, 27, 46), rgb(14, 25, 39)); 
+  linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(22, 36, 61), rgb(17, 27, 46),rgb(17, 27, 46), rgb(17, 30, 48)); 
   /*linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(110, 77, 137), rgb(66, 136, 168),rgb(130, 192, 190), rgb(255, 255, 255), rgb(255, 255, 255));
    linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(42, 21, 59), rgb(19, 16, 43),rgb(8, 10, 24), rgb(10, 4, 37)); 
   */
@@ -174,7 +174,7 @@ body{
 #favorites{
   color: rgb(118, 126, 129);/*rgba(95, 83, 51, 0.719)*/
   background-color: rgba(0, 0, 0, 0.301);
-  
+  border-radius: 5px;
 }
 
 
