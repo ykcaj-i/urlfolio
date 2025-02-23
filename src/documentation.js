@@ -64,7 +64,12 @@ document.getElementById('submitCategory').onclick = function(){
 /*
 both fields should be cleared once we have grabbed the form input from both the url and category forms
 
-now that we have the values in string format of both the url and the category, we need to 
+now that we have the values in string format of both the url and the category, we need to find a way to store them in our database
+our data will look like this
+
+url, url, url, url, url, url 
+
+category, category, category
 
 */
 
