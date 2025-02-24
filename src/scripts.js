@@ -29,14 +29,24 @@ document.getElementById('submitCategory').onclick = function(){
     addToArray(catInput);
 }
 
+
+function isValidUrl(string) {
+    try {
+      new URL(string);
+      return true;
+    } catch (err) {
+      return false;
+    }
+  }
 //initialize both form input arrays
 let URL = [];
 let CAT = [];
 
 function addToArray(input){
     //sort whether the input parameter is a category or url
-    if(input.includes("www.") && input.includes(".com") || 
-    input.includes("https://") && (input.includes("www.") && input.includes(".com"))){
+    if((isValidUrl(input)) == true){
+    /*input.includes("www.") && input.includes(".com") || 
+    input.includes("https://") && (input.includes("www.") && input.includes(".com"))*/
         URL.push(input);
         console.log(URL);
         console.log(" type: url, " + " length: " + URL.length);
