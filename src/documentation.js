@@ -121,5 +121,3 @@ fruitForm.addEventListener('submit', function(e) {
   console.log(fruitDataStore);
 });
 */
-
-

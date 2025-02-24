@@ -1,39 +1,48 @@
 
 
-let thisUrl;
+//prevent site from refreshing on url form submission
+var form = document.getElementById("urlForm");
+function submitForm(event) {
+    event.preventDefault();
+ }
+ form.addEventListener('submit', submitForm);
 
 
+//input form for the URL
+document.getElementById('submitUrl').onclick = function(){ 
+    //covert form input into a string
+    let urlInput = String(document.getElementById('url').value);
+    //clear input box
+    document.getElementById("url").value = ""; 
 
 
-    document.getElementById('submit1').onclick = function(){
-        thisUrl = document.getElementById('url').value;
-        let Stringify = String(thisUrl);
-        let isLink = true; 
-        let Statement; //empty string
-        let storage = document.cookie;
-        const blankSpace = " ";
+//initialize the URL object
+const URL = new Object();
 
-        if((Stringify.indexOf('https://') && Stringify.indexOf('.com') != isLink)){
-            Statement = "added a link";
-            Stringify = "https://" + Stringify + ".com";
-            document.getElementById('mainListUrl').innerHTML += `<div class = "wrap">${Stringify} + ${Statement}<br><br></div>` 
-            storage = `<div class = "wrap">${Stringify} + ${Statement}<br><br></div>`; 
-        } else {
-            Statement = "didn't need to add link";
-            document.getElementById('mainListUrl').innerHTML += `<div class = "wrap">${Stringify} + ${Statement}<br><br></div>` 
-            storage = `<div class = "wrap">${Stringify} + ${Statement}<br><br></div>`; 
-        }
+URL.link = urlInput;
 
-        console.log(thisUrl);
-        console.log(Stringify);
-        
-   
-       
+//Object.keys()
+//10 is the limit of links allowed
+let objectLength = Object.keys(URL).length;
+
+if(Object.keys(URL).length == 10){
+
+    for(/*let*/i = 0; /*while */ i < objectLength; i++){
+        console.log(URL.link);
     }
-    
+} 
 
+}
+/*
 
+let count = 0;
+for(i = 0; i < 10; i++){
+  urlInput += " " + count;
+  count++;
+  URL.link = urlInput;
 
-//window.onload = function(){ };
+console.log(URL.link);
 
-//document.getElementById('url')
+}
+*/
+
