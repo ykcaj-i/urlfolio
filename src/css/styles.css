@@ -35,7 +35,7 @@ body{
   justify-content: left;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: url(./images-css/ufolight.png), url(./images-css/moonloweropacity.png), url(./images-css/stars.gif), 
+  background-image: url(./images-css/ufo.png), url(./images-css/moonloweropacity.png), url(./images-css/stars.gif), 
   linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(22, 36, 61), rgb(17, 27, 46),rgb(17, 27, 46), rgb(17, 30, 48)); 
   /*linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(110, 77, 137), rgb(66, 136, 168),rgb(130, 192, 190), rgb(255, 255, 255), rgb(255, 255, 255));
    linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(42, 21, 59), rgb(19, 16, 43),rgb(8, 10, 24), rgb(10, 4, 37)); 
@@ -47,7 +47,7 @@ body{
   padding-bottom: 0em;
   
   background-size: 4%, 15%, 14%, 100%;
-  background-position: 97%, 8%, 12%, 200%;/* Position image1 at top-left, image2 at center */
+  background-position: 97%, 8%, 14%, 200%;/* Position image1 at top-left, image2 at center */
   background-repeat: no-repeat, no-repeat, no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
   height: 100px;
 }
@@ -58,8 +58,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /*./images-css/stars.gif*/
-    background-image: url(./images-css/moon.png), url(), 
+    background-image: url(./images-css/moon.png), url(./images-css/stars.gif), 
     linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(110, 77, 137), rgb(66, 136, 168),rgb(110, 196, 205), rgb(150, 218, 193));
     background-size: 15%, 15%, 100%;
     background-position: 60%, 68%, 200%;/* Position image1 at top-left, image2 at center */
