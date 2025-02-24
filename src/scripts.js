@@ -1,27 +1,61 @@
 
 
 //prevent site from refreshing on url form submission
-var form = document.getElementById("urlForm");
+
+document.getElementById("urlForm").addEventListener('submit', submitForm);
+document.getElementById("categoryForm").addEventListener('submit', submitForm);
+
 function submitForm(event) {
     event.preventDefault();
  }
- form.addEventListener('submit', submitForm);
 
-let URL = [];
+
+
 //input form for the URL
 document.getElementById('submitUrl').onclick = function(){ 
     //covert form input into a string
     let urlInput = String(document.getElementById('url').value);
-    
     //clear input box
     document.getElementById("url").value = ""; 
-    
- 
-    URL.push(urlInput);
-    console.log(URL);
-    console.log(URL.length);
+    //add the url input into the array
+    addToArray(urlInput);
 }
-    
+document.getElementById('submitCategory').onclick = function(){ 
+    //covert form input into a string
+    let catInput = String(document.getElementById('category').value);
+    //clear input box
+    document.getElementById("category").value = ""; 
+    //add the url input into the array
+    addToArray(catInput);
+}
+
+let URL = [];
+let CAT = [];
+
+function addToArray(input){
+
+    if(input.includes("www.") || input.includes(".com") || input.includes("https://")){
+        URL.push(input);
+        console.log(URL);
+        console.log(" type: url, " + " length: " + URL.length);
+    } else {
+        CAT.push(input);
+        console.log(CAT);
+        console.log(" type: category, " + " length: " + CAT.length);
+    }
+
+    /*
+    if((urlInput.includes(".com") == true)){
+        URL.push(urlInput);
+        console.log("url:");
+        console.log(URL);
+    } else if ((catInput.includes(".com") == false)){
+        CAT.push(catInput);
+        console.log("category:");
+        console.log(CAT);
+    }
+        */
+}
 
 
 
