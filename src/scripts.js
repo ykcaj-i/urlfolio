@@ -34,7 +34,8 @@ let CAT = [];
 
 function addToArray(input){
 
-    if(input.includes("www.") || input.includes(".com") || input.includes("https://")){
+    if(input.includes("www.") && input.includes(".com") || 
+    input.includes("https://") && (input.includes("www.") && input.includes(".com"))){
         URL.push(input);
         console.log(URL);
         console.log(" type: url, " + " length: " + URL.length);
@@ -43,18 +44,6 @@ function addToArray(input){
         console.log(CAT);
         console.log(" type: category, " + " length: " + CAT.length);
     }
-
-    /*
-    if((urlInput.includes(".com") == true)){
-        URL.push(urlInput);
-        console.log("url:");
-        console.log(URL);
-    } else if ((catInput.includes(".com") == false)){
-        CAT.push(catInput);
-        console.log("category:");
-        console.log(CAT);
-    }
-        */
 }
 
 
