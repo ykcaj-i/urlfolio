@@ -24,6 +24,7 @@ URL.link = urlInput;
 //Object.keys()
 //10 is the limit of links allowed
 let objectLength = Object.keys(URL).length;
+console.log(objectLength);
 
 if(Object.keys(URL).length == 10){
 
