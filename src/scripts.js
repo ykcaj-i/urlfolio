@@ -29,11 +29,12 @@ document.getElementById('submitCategory').onclick = function(){
     addToArray(catInput);
 }
 
+//initialize both form input arrays
 let URL = [];
 let CAT = [];
 
 function addToArray(input){
-
+    //sort whether the input parameter is a category or url
     if(input.includes("www.") && input.includes(".com") || 
     input.includes("https://") && (input.includes("www.") && input.includes(".com"))){
         URL.push(input);
