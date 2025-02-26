@@ -1,7 +1,7 @@
 html {scroll-behavior: smooth;}
 body{
   font-family: Reddit Mono;
-  background: rgb(14, 18, 24); 
+  background: rgb(8, 17, 27); 
   /*default dark mode: rgb(20, 21, 24), default light mode: rgb(187, 217, 244)
     default mode: rgb(14, 18, 24)*/  /*rgb(7, 12, 22)    rgb(16, 21, 39)  rgb(11, 14, 19) rgb(170, 197, 223)*/ 
   color:  rgb(136, 153, 168);
@@ -23,15 +23,17 @@ body{
 }
 
 /*text-decoration: underline 1px rgb(102, 95, 58);*/
-
+.navbarButtonsContainer{
+  display: flex;
+}
 .navbuttons{
-  overflow-y: scroll;
+  flex-direction: row-reverse;
   display:flex; 
-  justify-content: left;
+  justify-content: space-between;
   cursor: pointer;
   background-color: rgb(108, 108, 173); /*rgba(0, 0, 0, 0.041)*/
-  background-image: url(./images-css/ufo.png), url(./images-css/moonloweropacity.png), url(./images-css/stars.gif), 
-  linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%, rgb(71, 39, 98) 20%, rgb(22, 36, 61), rgb(17, 27, 46),rgb(14, 24, 43), rgb(12, 23, 39)); 
+  background-image: url(./images-css/ufo.png), url(), url(), 
+  linear-gradient(to right, rgba(22, 39, 61),  rgb(79, 48, 104) 10%, rgb(22, 36, 61), rgb(17, 27, 46),rgb(14, 24, 43), rgb(12, 23, 39)); 
   /*linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(110, 77, 137), rgb(66, 136, 168),rgb(130, 192, 190), rgb(255, 255, 255), rgb(255, 255, 255));
    linear-gradient(to right, rgba(22, 39, 61),  rgb(71, 39, 98) 10%,rgb(42, 21, 59), rgb(19, 16, 43),rgb(8, 10, 24), rgb(10, 4, 37)); 
   */
@@ -40,9 +42,9 @@ body{
   padding: 0.25em;
   padding-top: 0em;
   padding-bottom: 0em;
-  
-  background-size: 4%, 15%, 14%, 100%;
-  background-position: 97%, 20%, 15%, 200%;/* Position image1 at top-left, image2 at center */
+
+  background-size: 3.5%, 15%, 14%, 100%;
+  background-position: 50%, 20%, 12%, 200%;/* Position image1 at top-left, image2 at center */
   background-repeat: no-repeat, no-repeat, no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
   height: 100px;
 }
@@ -126,7 +128,7 @@ body{
 .genericContainer1{
 
   /*background: linear-gradient(to right, rgb(10, 14, 17), rgb(2, 2, 14));*/
-  background-color: rgba(8, 11, 15, 0.368);
+  background-color: rgba(6, 11, 18, 0.368);
   /*border: solid 1px rgba(66, 68, 71, 0.253);*/
   border-radius: 10px;
   /*border: solid 1px rgba(118, 126, 129, 0.74);*/
@@ -146,7 +148,8 @@ body{
 
 
 .hrdividers{
-  border: solid 1px rgba(118, 126, 129, 0.507);
+  transition: 1s;
+  border: solid 1px rgba(99, 119, 126, 0.507);
 }
 /*
 .genericContainer1:hover{
@@ -155,13 +158,12 @@ body{
 */
 
 .genericContainer1:hover{
-
   cursor: pointer;
   transition: all 1s;
 }
 
 .genericContainer1:hover > .hrdividers{
-  border: solid 1px rgba(255, 255, 255, 0.39);
+  border: solid 1px rgba(124, 148, 167, 0.764);
   transition: all 0.5s ease;
 }
 

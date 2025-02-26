@@ -3,22 +3,23 @@
 #url{
     border: none;
     border-radius: 5px;
-    background-color: #000000bb;
+    background-color: #0708119b;
 
    
 }
 
 
 #urlLabel{
-    color: rgb(142, 148, 151);
+    color: rgb(145, 142, 151);
     font-weight: 400;
 }
 
 .submit{
+    font-size: 105%;
     border: none;
     border-radius: 25%;
     color: rgb(142, 148, 151);
-    background-color: #1f252cbb;
+    background-color: #111f2fbb;
 }
 
 .submit:hover{
@@ -33,7 +34,7 @@
 #category{
     border: none;
     border-radius: 5px;
-    background-color: #000000bb;
+    background-color: #0708119b;
  
    
  }
@@ -46,9 +47,15 @@
  
 
  input, select, textarea{
-    color: rgb(155, 165, 175);
+    color: rgb(199, 216, 225);
     font-family: reddit mono;
-   
+ 
+}
+
+
+input:focus {
+    outline: transparent;
+    box-shadow: 0px 0px 3px rgb(59, 97, 128);
 }
 
 .submit:hover ~ #urlLabel{
@@ -64,3 +71,4 @@
     transition: 1.25s ease;
     color: rgba(81, 186, 218, 0.788);
 }
+
