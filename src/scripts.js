@@ -59,6 +59,28 @@ function addToArray(input){
 
 
 
+/*
+ * 
+ * function to create a new special set of array called concatenateElements(), where we create an array called const linkArray = []; inside concatenateElements we do as follow
+ * add CAT then separate it with a denotion '|' with URL therefore: "google | www.google.com", "robinhood | www.robinhood.com/hood", and "reddit | www.reddit.com"
+ * once we are able to create a new variable called let LINK, we push it into the array linkArray.push(LINK) 
+ * when console.log(linkArray) we will get ["google | www.google.com", "robinhood | www.robinhood.com/hood", "reddit | www.reddit.com"]
+ *                                           element 0                  element 1                             element 2        
+ * 
+ * let's create a new object called exportToDatabase = {};
+ * this object will store methods as functions
+ * 0. copyBackupData  //copy and backup data to user's cookies just in case something happens to the database
+ * 1. addToArray      //add both the url and cat to separate array 
+ * 2. concatenate       //get both the data values from url and cat, and concatenate them to one single string so it can be sent to database
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ *  
+ */
 
 
 
