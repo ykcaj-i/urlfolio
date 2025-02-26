@@ -15,12 +15,7 @@ body{
   border-radius: 5px;
 }
 
-.material-icons {
-  font-size: 110% !important;
-}
-.small-icon{
 
-}
 
 
 .navbar{
@@ -47,7 +42,7 @@ body{
   padding-bottom: 0em;
   
   background-size: 4%, 15%, 14%, 100%;
-  background-position: 97%, 8%, 14%, 200%;/* Position image1 at top-left, image2 at center */
+  background-position: 97%, 20%, 15%, 200%;/* Position image1 at top-left, image2 at center */
   background-repeat: no-repeat, no-repeat, no-repeat, repeat; /* Prevent image1 from repeating, allow image2 to repeat */
   height: 100px;
 }
