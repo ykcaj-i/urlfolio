@@ -67,9 +67,14 @@ body{
   }
 }
 
-
+.unique{
+  align-self: left;
+  justify-content: left;
+  justify-self: left;
+}
 
 .navbuttons a{
+  font-family: reddit mono;
   padding-left: 2em;
   padding-right: 2em;
 
